@@ -1,0 +1,45 @@
+{
+  "source": "regifukuchi/BMC-RIC-running-biomechanics",
+  "commit": "21f5a4607c9e4f6a365caa6e6d85c96787517844",
+  "license": "CC BY 4.0",
+  "source_rows": 1614,
+  "source_columns": [
+    "Group",
+    "Subject",
+    "Trial",
+    "Filename",
+    "Speed",
+    "Age",
+    "Height",
+    "Mass"
+  ],
+  "source_missing_cells": 0,
+  "unique_composite_participants": 46,
+  "unique_unqualified_subject_numbers": 23,
+  "groups": [
+    {
+      "Group": "BMC",
+      "source_rows": 791,
+      "participants": 23,
+      "speed_min": 2.5,
+      "speed_max": 2.5,
+      "row_weighted_speed_mean": 2.5
+    },
+    {
+      "Group": "RIC",
+      "source_rows": 823,
+      "participants": 23,
+      "speed_min": 2.42803382861282,
+      "speed_max": 2.57126578935386,
+      "row_weighted_speed_mean": 2.4884633329328505
+    }
+  ],
+  "duplicate_group_subject_trial_rows": 0,
+  "participants_with_varying_demographics": 0,
+  "trial_unit": "source records labelled Trial, corresponding to normalized waveform records in upstream notebook; not independent people or established clinical sessions",
+  "primary_dataset_crosswalk": null,
+  "possible_ric_overlap": "unresolved",
+  "waveforms_acquired": false,
+  "upstream_notebook_executed": false,
+  "pooled_with_primary": false
+}

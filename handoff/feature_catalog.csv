@@ -1,0 +1,20 @@
+feature,domain,source,unit,status,notes
+participant_id,identity,sub_id,text,implemented,Namespaced ID required across sources; never a model feature
+session_time,identity,datestring or timestamp filename,datetime,implemented,Source and recovery flags retained
+speed_m_s,running,speed_r,m/s,implemented,Finite positive speed; task from running source
+age_analysis,demographics,age,years,implemented,Plausibility flags preserve source
+Height_analysis,demographics,Height,cm,implemented,Plausibility flags preserve source
+Weight_analysis,demographics,Weight,kg,implemented,Plausibility flags preserve source
+gender,demographics,Gender,category,implemented,Self-reported gender; not a verified sex variable
+dominant_leg,demographics,DominantLeg,category,implemented,Unknown and missing retained
+YrsRunning_analysis,running,YrsRunning,years,implemented,Must not exceed recorded age
+athletic_level,running,Level,category,implemented,Actual recreational and competitive labels
+injury_status,clinical,InjDefn plus primary and secondary injury fields,category,implemented,Healthy injured discordant unknown; conservative control definition
+severity,clinical,InjDefn,category,implemented,Actual source text labels; not assumed integer encoding
+diagnosis,clinical,SpecInjury,category,implemented,Only README-supported aliases merged
+injury_side,clinical,InjSide,category,implemented,Side alone does not establish injury
+InjDuration_analysis,clinical,InjDuration,days,implemented,Conditional missingness; no imputation
+hip_joint_features,biomechanics,official JSON and processing code,TBD,deferred,Requires verified units signs gait cycles and QC
+knee_joint_features,biomechanics,official JSON and processing code,TBD,deferred,Requires Milestone 1 review
+ankle_joint_features,biomechanics,official JSON and processing code,TBD,deferred,Requires Milestone 1 review
+whole_waveforms,biomechanics,official processing pipeline,TBD,deferred,No normalization or inference performed

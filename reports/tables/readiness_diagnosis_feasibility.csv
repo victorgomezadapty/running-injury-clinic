@@ -1,0 +1,58 @@
+diagnosis,ever_participants,selected_participants,expanded_complete_participants,selected_n30_planning_flag
+itb syndrome,102,102,83,True
+patellofemoral pain syndrome,91,91,76,True
+plantar fasciitis,61,61,53,True
+achilles tendonitis,59,59,45,True
+calf muscle strain,48,48,39,True
+hamstring muscle strain,42,42,32,True
+medial tibial stress syndrome,33,33,25,True
+bursitis,25,25,21,False
+shin splints,22,22,16,False
+osteoarthritis,15,15,11,False
+low back pain,15,14,10,False
+peroneal tendonitis,10,10,9,False
+ligament sprain,9,9,6,False
+tibia stress fracture,9,9,8,False
+disc degeneration,8,8,5,False
+disc protrusion,8,8,7,False
+hip flexor strain,8,8,7,False
+ligament tear/rupture acl,8,8,5,False
+si joint pain,8,8,6,False
+meniscal tear medial,7,7,4,False
+muscle spasm,7,7,5,False
+patellar tedonitis,7,6,5,False
+patellar tendonitis,6,6,5,False
+compartment syndrome,5,5,4,False
+groin muscle strain,5,5,5,False
+osteitis pubis,5,5,4,False
+chondromalacia,4,4,3,False
+pelvic dysfunction general,4,4,4,False
+piriformis syndrome,4,4,4,False
+strain,4,4,4,False
+cyst,3,3,3,False
+ligament tear/rupture mcl,3,3,2,False
+meniscal tear-medial,3,3,3,False
+metarsalgia,3,3,1,False
+metatarsal stress fracture,3,3,3,False
+"deformity (e.g hammer/claw toes, bunion)",2,2,1,False
+"deformity(ie hammer/claw toes, bunion)",2,2,1,False
+hip joint irritation,2,2,2,False
+muscle strain,2,2,2,False
+nerve impingement,2,2,2,False
+pelvic malalignment,2,2,2,False
+pes anserine bursitis,2,2,2,False
+plica,2,2,1,False
+dislocation,1,1,1,False
+fibula fracture,1,1,1,False
+first ray tendonitis (turf toe),1,1,0,False
+ischial bursitis,1,1,1,False
+labral tear,1,1,1,False
+ligament tear/rupture pcl,1,1,0,False
+ligament tear/rupture-acl,1,1,1,False
+meniscal tear-lateral,1,1,1,False
+patellar fracture,1,1,1,False
+sciatic nerve impingement,1,1,1,False
+stress fracture,1,1,1,False
+stress reaction,1,1,1,False
+synovitis,1,1,1,False
+tibia fracture,1,1,0,False

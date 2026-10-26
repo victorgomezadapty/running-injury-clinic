@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite the dataset and its descriptor as documented in docs/references.md."
+title: "Running Biomechanics & Injury Phenotyping"
+abstract: "Reproducible audit and technical pilot for source-provided running kinematics and current injury-status metadata. Event/cycle validation is pending execution of the official MATLAB workflow."
+authors:
+  - family-names: "Gómez López"
+    given-names: "Víctor Andrés"
+date-released: 2026-10-26
+license: MIT
+repository-code: "https://github.com/victorgomezadapty/running-injury-clinic"
+url: "https://running-injury-clinic.vercel.app"
+keywords:
+  - running biomechanics
+  - sports rehabilitation
+  - injury phenotyping
+  - reproducible research

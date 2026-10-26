@@ -1,0 +1,149 @@
+participant_id,filename,InjDefn,InjJoint,SpecInjury,InjJoint2,SpecInjury2,injury_status,review_reason,later_eligible_record_exists
+100016,20110329T161600.json,No injury,Lower Leg,fibula stress fracture,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100099,20100203T142442.json,No injury,Knee,other,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100201,20110513T152349.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100203,20110525T154339.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100204,20110603T155329.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100207,20110617T162318.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100209,20110428T112229.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100212,20110914T140313.json,No injury,Hip/Pelvis,pain,Ankle,pain,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text;no_injury_severity_with_secondary_site;no_injury_severity_with_secondary_text,False
+100218,20110921T141851.json,No injury,Ankle,achilles tendonitis,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100220,20110623T000000.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100223,20110907T000000.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100224,20110909T000000.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100225,20110919T000000.json,No injury,Thigh,ITB syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100229,20110929T132032.json,No injury,Knee,pain,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100236,20090903T103129.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100238,20091001T124813.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100241,20090922T184139.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100243,20090720T194329.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100245,20090831T235549.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100254,20090623T202557.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100255,20090706T111152.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100258,20091026T154218.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100267,20091022T151849.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100268,20091102T192342.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100280,20091016T121655.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100284,20100621T111921.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100285,20100708T152242.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100286,20100809T194812.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100289,20100629T001758.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100291,20111012T140221.json,No injury,Foot,plantar fasciitis,Hip/Pelvis,pain,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text;no_injury_severity_with_secondary_site;no_injury_severity_with_secondary_text,False
+100292,20111013T133315.json,No injury,Knee,pain,Lumbar Spine,pain,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text;no_injury_severity_with_secondary_site;no_injury_severity_with_secondary_text,False
+100294,20111019T140906.json,No injury,Knee,pain,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100295,20111020T133225.json,No injury,Hip/Pelvis,pain,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100296,20111020T150405.json,No injury,Thigh,ITB syndrome,Hip/Pelvis,pelvic dysfunction general,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text;no_injury_severity_with_secondary_site;no_injury_severity_with_secondary_text,False
+100304,20110920T105857.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100305,20111021T115017.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100306,20110516T122250.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100307,20110601T112751.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100308,20110530T102240.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100309,20110613T104747.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100310,20110713T113813.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100311,20111103T103648.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100312,20110203T124211.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100313,20110209T125643.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,True
+100314,20110210T124729.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100315,20110222T105711.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100316,20110304T112948.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100317,20110216T105144.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100318,20110309T121934.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100319,20110408T122343.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100320,20110211T111845.json,No injury,Knee,bursitis,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100321,20110214T102312.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100322,20110506T103544.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100323,20110511T125737.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100324,20110413T115727.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100325,20110427T112147.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100326,20110511T101722.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100327,20110525T105627.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100328,20110406T114245.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100329,20110411T111815.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100330,20110606T113755.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100332,20110530T122235.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100338,20111123T135934.json,No injury,Lumbar Spine,pain,Knee,pain,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text;no_injury_severity_with_secondary_site;no_injury_severity_with_secondary_text,False
+100339,20111124T132808.json,No injury,Lower Leg,calf muscle strain,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100342,20111102T135604.json,No injury,Knee,pain,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100348,20111130T135514.json,No injury,Knee,pain,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100357,20111208T132352.json,No injury,Knee,pain,No Injury,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+100550,20120704T124114.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100551,20120704T103757.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100552,20120706T121758.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100553,20120706T123450.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100554,20120706T103155.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100555,20120709T125516.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100556,20120709T124114.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100557,20120710T123450.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100558,20120528T103155.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100559,20120710T121758.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100563,20120711T125516.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100564,20120712T124114.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100566,20120712T125516.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100567,20120713T103757.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100569,20120712T125426.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100570,20120717T093512.json,,Knee,PFPS,,,unknown,missing_or_unrecognized_severity,False
+100573,20120711T101620.json,,Knee,PFPS,,,unknown,missing_or_unrecognized_severity,False
+100574,20120404T125517.json,,Knee,PFPS,,,unknown,missing_or_unrecognized_severity,False
+100575,20120119T122851.json,,Knee,PFPS,,,unknown,missing_or_unrecognized_severity,False
+100576,20120713T115124.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100577,20120713T105012.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100578,20120716T124952.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100579,20120716T121617.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100583,20120605T115027.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100584,20120605T124837.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100598,20120802T113946.json,,Knee,PFPS,,,unknown,missing_or_unrecognized_severity,False
+100608,20120628T105640.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100609,20120629T105939.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100610,20120703T115439.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100611,20120717T113655.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100612,20120718T115628.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100613,20120718T122757.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100614,20120720T121842.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100615,20120720T104243.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100616,20120720T125030.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100617,20120723T105258.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100618,20120723T113156.json,,,No injury,,,unknown,missing_or_unrecognized_severity,True
+100619,20120724T112231.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100620,20120724T101730.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100623,20120725T121344.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100624,20120726T104016.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100625,20120727T112730.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100626,20120727T111113.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100627,20120802T112422.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100628,20120801T104753.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100629,20120802T121849.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100632,20120727T113555.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100633,20120803T102446.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100636,20120806T101348.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100637,20120809T113547.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100638,20120809T102334.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100640,20120821T104617.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+100677,20121107T101238.json,,Knee,PFPS,,,unknown,missing_or_unrecognized_severity,False
+101035,20140417T125955.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101036,20140404T124857.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101037,20140411T111543.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101038,20140425T112621.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101039,20140428T103257.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101040,20140428T105643.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101041,20140425T101716.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101042,20140512T114142.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101043,20140520T125452.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101044,20140505T112413.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101045,20140512T122045.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101046,20140508T101457.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101176,20140530T112130.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101177,20140513T114441.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101178,20140602T102343.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101179,20140609T123854.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101180,20140602T105322.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101181,20140606T121315.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101182,20140610T115941.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101183,20140826T123047.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101184,20140606T115631.json,,,No injury,,,unknown,missing_or_unrecognized_severity,False
+101413,20150402T122006.json,No injury,Knee,Patellofemoral pain syndrome,,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+200304,20140729T151714.json,No injury,Lower Leg,Shin splints,,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+200316,20140814T153258.json,No injury,Knee,Other,,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+200317,20140814T163743.json,No injury,Other,N/A,,,discordant,no_injury_severity_with_primary_site,False
+200375,20140501T142737.json,No injury,Foot,First ray tendonitis (turf toe),,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,True
+200378,20140911T155034.json,No injury,Knee,Chondromalacia,,,discordant,no_injury_severity_with_primary_site;no_injury_severity_with_primary_text,False
+201091,20150408T175440.json,No injury,,,Lower Leg,Calf muscle strain,discordant,no_injury_severity_with_secondary_site;no_injury_severity_with_secondary_text,False

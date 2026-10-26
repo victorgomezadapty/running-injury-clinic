@@ -1,0 +1,31 @@
+column,definition,unit_or_type
+pilot_case_id,Project-generated opaque row label; not a source participant identifier,text
+current_injury_status_source,Current status category as defined from the source metadata; not a future outcome,category
+gender_as_reported,Source self-reported gender category,category
+running_speed_m_s,Source running speed,m/s
+left_ankle_df_peak_angle,Source-provided left-side discrete summary: ANKLE_DF_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_ankle_eve_peak_angle,Source-provided left-side discrete summary: ANKLE_EVE_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_ankle_rot_peak_angle,Source-provided left-side discrete summary: ANKLE_ROT_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_hip_add_peak_angle,Source-provided left-side discrete summary: HIP_ADD_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_hip_ext_peak_angle,Source-provided left-side discrete summary: HIP_EXT_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_hip_rot_peak_angle,Source-provided left-side discrete summary: HIP_ROT_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_knee_add_peak_angle,Source-provided left-side discrete summary: KNEE_ADD_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_knee_flex_peak_angle,Source-provided left-side discrete summary: KNEE_FLEX_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_knee_rot_peak_angle,Source-provided left-side discrete summary: KNEE_ROT_PEAK_ANGLE; see project registry for phase/sign details,deg
+left_stance_time,Source-provided left-side discrete summary: STANCE_TIME; see project registry for phase/sign details,s
+left_stride_length,Source-provided left-side discrete summary: STRIDE_LENGTH; see project registry for phase/sign details,m
+left_stride_rate,Source-provided left-side discrete summary: STRIDE_RATE; see project registry for phase/sign details,strides/min
+left_swing_time,Source-provided left-side discrete summary: SWING_TIME; see project registry for phase/sign details,s
+right_ankle_df_peak_angle,Source-provided right-side discrete summary: ANKLE_DF_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_ankle_eve_peak_angle,Source-provided right-side discrete summary: ANKLE_EVE_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_ankle_rot_peak_angle,Source-provided right-side discrete summary: ANKLE_ROT_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_hip_add_peak_angle,Source-provided right-side discrete summary: HIP_ADD_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_hip_ext_peak_angle,Source-provided right-side discrete summary: HIP_EXT_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_hip_rot_peak_angle,Source-provided right-side discrete summary: HIP_ROT_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_knee_add_peak_angle,Source-provided right-side discrete summary: KNEE_ADD_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_knee_flex_peak_angle,Source-provided right-side discrete summary: KNEE_FLEX_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_knee_rot_peak_angle,Source-provided right-side discrete summary: KNEE_ROT_PEAK_ANGLE; see project registry for phase/sign details,deg
+right_stance_time,Source-provided right-side discrete summary: STANCE_TIME; see project registry for phase/sign details,s
+right_stride_length,Source-provided right-side discrete summary: STRIDE_LENGTH; see project registry for phase/sign details,m
+right_stride_rate,Source-provided right-side discrete summary: STRIDE_RATE; see project registry for phase/sign details,strides/min
+right_swing_time,Source-provided right-side discrete summary: SWING_TIME; see project registry for phase/sign details,s

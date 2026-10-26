@@ -1,0 +1,28 @@
+source_column,description,source_type,observed_nonmissing,observed_missing,distinct_nonmissing,sample_values
+sub_id,Subject identification number,text preserved on ingestion,1832,0,1402,100433; 100434; 100537; 100560; 101481; 100591
+datestring,Date and time of data collection,text preserved on ingestion,1822,10,1822,2010-10-05 13:22:40; 2010-11-17 13:22:40; 2012-07-03 10:25:50; 2012-07-17 10:37:48; 2012-07-17 10:50:21; 2012-08-09 10:01:15
+filename,Raw data filename.,text preserved on ingestion,1832,0,1832,20101005T132240.json; 20101117T132240.json; 20120703T102550.json; 20120717T103748.json; 20120717T105021.json; 20120809T100115.json
+speed_r,Calculated walking or running speed in m/s,text preserved on ingestion,1832,0,1831,1.6108612724846; 2.23729377291864; 2.12744076998803; 2.65736530826001; 2.62508833350086; 2.23183932692854
+age,Subject age in years at time of collection.,text preserved on ingestion,1832,0,56,53; 51; 255; 33; 32; 50
+Height,Subject height in cm (measured) at time of collection.,text preserved on ingestion,1829,3,295,173.1; 179.3; 176.3; 173; 154.6; 181.4
+Weight,Subject weight in kg (measured) at time of collection.,text preserved on ingestion,1830,2,477,67.6; 83; 58.6; 67.3; 64.5; 90.5
+Gender,Subject gender,text preserved on ingestion,1832,0,3,Unknown; Female; Male
+DominantLeg,Subject dominant leg,text preserved on ingestion,1480,352,3,Right; Left; Ambidextrous
+InjDefn,"Injury severity. Subjects selected from 1 of 4 options: No Injury, Continuing to train in pain, training volume/intensity affected, 2 workouts missed in a row.",text preserved on ingestion,1752,80,4,Training volume/intensity affected; 2 workouts missed in a row; No injury; Continuing to train in pain
+InjJoint,"Joint location of injury. If not applicable recorded as ""No Injury"" or empty cell.",text preserved on ingestion,1598,234,11,"Knee; Lumbar Spine; Hip/Pelvis; No Injury; No injury,No injury; Lower Leg"
+InjSide,"Injury side (right/left).  If not applicable recorded as ""No Injury"" or empty cell.",text preserved on ingestion,1346,486,4,Right; Bilateral; Left; Bi-lateral
+SpecInjury,Specific injury diagnosis.,text preserved on ingestion,1243,589,96,pain; disc degeneration; other; calf muscle strain; patellofemoral pain syndrome; fill in specifics below
+InjDuration,Injury duration in days.,text preserved on ingestion,405,1427,56,21; 365; 15; 400; 130; 42
+InjJoint2,"Secondary injury joint location. If not applicable recorded as ""No Injury"" or empty cell.",text preserved on ingestion,836,996,10,No Injury; Hip/Pelvis; Lumbar Spine; Knee; Lower Leg; Thigh
+InjSide2,"Secondary injury side. If not applicable recorded as ""No Injury"" or empty cell.",text preserved on ingestion,822,1010,3,Right; Left; Bilateral
+SpecInjury2,Specific secondary injury diagnosis.,text preserved on ingestion,320,1512,55,groin muscle strain; pain; muscle spasm; calf muscle strain; hip joint irritation; hamstring muscle strain
+Activities,Subject reported athletic activities performed on a regular basis,text preserved on ingestion,1516,316,800,"walking, horseback riding, strength training; running, swimming; hiking, power walking, pilates; Yoga; cycling; triathlon"
+Level,Subject reported level of athletic activity (recreational/competitive),text preserved on ingestion,1563,269,2,Recreational; Competitive
+YrsRunning,Number of years subject has been running on a regular basis,text preserved on ingestion,1315,517,54,13; 20; 2; 1; 30; 7
+RaceDistance,Perferred race distance,text preserved on ingestion,1494,338,9,10k; Casual Runner (no times); Half Marathon; Other distance; 5k; Full Marathon
+RaceTimeHrs,Perferred race distance best time: Hrs,text preserved on ingestion,979,853,18,0; 4; HH; 1; 2; 3
+RaceTimeMins,Perferred race distance best time: Mins,text preserved on ingestion,1025,807,70,40; 38; 35; 34; 45; 59
+RaceTimeSecs,Perferred race distance best time: Secs,text preserved on ingestion,924,908,47,00; 20; 45; 11; 13; SS
+YrPR,Year of preferred race distance personal best time,text preserved on ingestion,425,1407,22,2012; 2011; 2015; 2013; 2014; 2009
+NumRaces,Number of races completed per year.,text preserved on ingestion,504,1328,18,4; 1; 0; 25; 6; 3
+speed_w,Calculated walking or running speed in m/s,text preserved on ingestion,2088,0,2088,1.1139304674388; 1.10774248801748; 1.12104132907688; 1.3227625408374; 1.12039445357328; 1.11965693921484

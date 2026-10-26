@@ -1,0 +1,15 @@
+injury_status,field,unavailable_n,denominator,unavailable_percent
+healthy,speed_m_s,0,353,0.0
+healthy,age_analysis,0,353,0.0
+healthy,Height_analysis,1,353,0.28328611898017
+healthy,Weight_analysis,1,353,0.28328611898017
+healthy,YrsRunning_analysis,111,353,31.444759206798867
+healthy,gender,0,353,0.0
+healthy,athletic_level,50,353,14.164305949008499
+injured,speed_m_s,0,904,0.0
+injured,age_analysis,1,904,0.11061946902654868
+injured,Height_analysis,3,904,0.33185840707964603
+injured,Weight_analysis,3,904,0.33185840707964603
+injured,YrsRunning_analysis,175,904,19.358407079646017
+injured,gender,1,904,0.11061946902654868
+injured,athletic_level,0,904,0.0

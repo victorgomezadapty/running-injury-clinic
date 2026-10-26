@@ -1,0 +1,31 @@
+participant_id,filename,injury_status,gender,speed_m_s,injury_side_recorded,joint_recorded,qc_status,qc_flags,sampling_hz,frames,time_span_s,tracking_markers,static_anatomical_fields,source_feature_slots,provisionally_available_slots,temporal_review_sides,events_qc,valid_cycle_count,embedded_qc_fields_found,cache_hit
+101111,20140529T142305.json,healthy,male,2.87507236572043,,,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+100288,20110117T123155.json,healthy,male,2.69649734172406,right,no injury,structural_pass,,200,3830,19.145,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+200244,20140330T220853.json,healthy,female,2.91339753975998,,,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+101067,20140402T132349.json,healthy,male,2.46141416274394,,,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+100279,20100204T125857.json,healthy,female,2.70115454350852,right,no injury,structural_pass,,200,2492,12.455,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+101577,20150826T082130.json,healthy,female,2.43664938387105,,,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+101302,20150307T102953.json,healthy,male,3.1423765043596,,"no injury,no injury",structural_pass,,200,12000,59.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+102009,20170620T103147.json,healthy,male,2.72761208172744,,"no injury,no injury",structural_pass,,200,12000,59.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+100246,20090901T112326.json,healthy,female,2.74823878749644,right,no injury,structural_pass,,200,4000,19.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+100504,20120529T121913.json,healthy,male,1.17204781550085,right,no injury,structural_pass,,200,12000,59.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+100721,20130405T134134.json,healthy,female,2.70480486398854,right,no injury,structural_pass,,200,12000,59.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+101058,20140414T094847.json,healthy,female,2.2595297679736,,,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+101054,20140410T152849.json,healthy,male,2.97897057466637,,,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+100503,20120523T121253.json,healthy,male,2.50547261718302,right,no injury,structural_pass,,200,4000,19.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+100755,20130513T141144.json,healthy,female,2.751905606375,right,no injury,structural_pass,,200,12000,59.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+201224,20140417T141711.json,injured,male,2.92173561874126,left,thigh,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+100198,20110218T140024.json,injured,male,2.68828454295975,right,thigh,structural_pass,,200,2931,14.65,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+200354,20140925T165721.json,injured,male,2.92854595599009,left,knee,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+100646,20121101T095248.json,injured,male,2.61713949251499,bilateral,knee,structural_pass,,200,12000,59.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+101174,20110215T092705.json,injured,male,2.9355822081174,bilateral,foot,structural_pass,,200,4000,19.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+100663,20121204T100136.json,injured,male,2.54859940005795,bilateral,knee,structural_pass,,200,12000,59.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+101761,20160705T154202.json,injured,male,2.74563808427109,left,ankle,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+101250,20140908T102249.json,injured,male,2.53270670430076,right,knee,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+200241,20140204T123534.json,injured,male,4.15484463475713,right,lower leg,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+100341,20111129T124958.json,injured,male,2.71659288496617,right,lower leg,structural_pass,,200,4000,19.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+201092,20141208T180913.json,injured,male,2.91408228007515,left,lower leg,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+100034,20110525T141002.json,injured,male,2.72648552715857,left,thigh,structural_pass,,200,4000,19.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+100054,20110622T135245.json,injured,male,2.7403742624841,bilateral,lower leg,structural_pass,,200,4000,19.995,30,14,26,26,0,not_available_without_official_reprocessing,,0,True
+101056,20140411T092355.json,injured,male,2.72660646046864,bilateral,lower leg,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True
+200366,20141009T145453.json,injured,male,2.91001455442886,right,hip/pelvis,structural_pass,,200,5000,24.995,28,10,26,26,0,not_available_without_official_reprocessing,,0,True

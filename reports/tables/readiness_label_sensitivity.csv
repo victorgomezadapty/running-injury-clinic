@@ -1,0 +1,4 @@
+scenario,participants,healthy,injured,added_vs_primary,selected_file_changes_shared_ids
+current_conservative,1257,353,904,0,0
+primary_fields_controls,1258,354,904,1,0
+severity_only_exploratory,1329,426,903,72,2

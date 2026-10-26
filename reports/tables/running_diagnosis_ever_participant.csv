@@ -1,0 +1,58 @@
+diagnosis,participants,exploratory_n30_screen
+itb syndrome,102,True
+patellofemoral pain syndrome,91,True
+plantar fasciitis,61,True
+achilles tendonitis,59,True
+calf muscle strain,48,True
+hamstring muscle strain,42,True
+medial tibial stress syndrome,33,True
+bursitis,25,False
+shin splints,22,False
+low back pain,15,False
+osteoarthritis,15,False
+peroneal tendonitis,10,False
+tibia stress fracture,9,False
+ligament sprain,9,False
+disc protrusion,8,False
+disc degeneration,8,False
+si joint pain,8,False
+ligament tear/rupture acl,8,False
+hip flexor strain,8,False
+meniscal tear medial,7,False
+muscle spasm,7,False
+patellar tedonitis,7,False
+patellar tendonitis,6,False
+groin muscle strain,5,False
+compartment syndrome,5,False
+osteitis pubis,5,False
+pelvic dysfunction general,4,False
+strain,4,False
+piriformis syndrome,4,False
+chondromalacia,4,False
+metarsalgia,3,False
+metatarsal stress fracture,3,False
+meniscal tear-medial,3,False
+ligament tear/rupture mcl,3,False
+cyst,3,False
+"deformity (e.g hammer/claw toes, bunion)",2,False
+"deformity(ie hammer/claw toes, bunion)",2,False
+pelvic malalignment,2,False
+plica,2,False
+nerve impingement,2,False
+hip joint irritation,2,False
+pes anserine bursitis,2,False
+muscle strain,2,False
+ischial bursitis,1,False
+ligament tear/rupture pcl,1,False
+dislocation,1,False
+first ray tendonitis (turf toe),1,False
+fibula fracture,1,False
+labral tear,1,False
+ligament tear/rupture-acl,1,False
+meniscal tear-lateral,1,False
+patellar fracture,1,False
+sciatic nerve impingement,1,False
+stress fracture,1,False
+stress reaction,1,False
+synovitis,1,False
+tibia fracture,1,False

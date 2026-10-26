@@ -1,0 +1,2 @@
+variable,n,missing,mean,sd,min,p25,median,p75,max
+InjDuration_analysis,230,673,362.09565217391304,803.0230053632249,1,60.0,150.0,365.0,10000

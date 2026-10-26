@@ -1,0 +1,34 @@
+{
+  "python": "3.14.6",
+  "packages": {
+    "pandas": "2.3.3",
+    "numpy": "2.5.2",
+    "matplotlib": "3.11.2",
+    "requests": "2.34.2",
+    "inflate64": "1.0.4",
+    "nbformat": "5.10.4",
+    "nbclient": "0.11.0"
+  },
+  "raw_sha256": {
+    "data/raw/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/raw/official_code/Supplemental_materials/Code/gait_kinematics.m": "10975884e715433813ab7626858b20f1ec0b5a754901c03f02863e7130123943",
+    "data/raw/official_code/Supplemental_materials/Code/gait_steps.m": "69f0134ba07732ba8c80d0a1e7b92f6d1efe057f856d90a8f968f360226a0472",
+    "data/raw/official_code/Supplemental_materials/Code/LICENSE.txt": "f4a538bfa483893f5851fefa2ff4b562b254e578d6aafcd78bc1f08f1169c3b0",
+    "data/raw/official_code/Supplemental_materials/Code/pca_td.m": "74b9104b6bad7a5828436b5ff601607188cb6bfcce6b03ea8b1eaf169ac648d9",
+    "data/raw/official_code/Supplemental_materials/Code/pca_to.m": "8afe412ad4133acd4b58f6632cf84528ed25f59333d880ab09c14a7f4be00eb1",
+    "data/raw/official_code/Supplemental_materials/Code/processing_code_example.m": "d34cfe29e8fbb831ef698e4d1badd106255760bc95351ed5c6720d2f0e9b4040",
+    "data/raw/README.txt": "63920529cc755536a6b546e67bb77708c73690bab2942b11e18c9b9f5761e6e8",
+    "data/raw/run_data_meta.csv": "208d10c266a93c7818018d10e58873d545d68279be49933976b06399d2e1e7f3",
+    "data/raw/sample/reformat_data/100001/20110531T161051.json": "2924ebdbd106395186a854976d6291eb926602e29b98702d2c70eb1831e4ce73",
+    "data/raw/sample/reformat_data/100002/20110601T140505.json": "6228ebc5ff354aac0826c5b2957f8b0aff522fe0884d3805bcf6396e20031472",
+    "data/raw/sample/reformat_data/100003/20110601T095930.json": "052742008bbf7c757ae76b7590acf3d8fc51f3a12cf7a1771e011cb969ceee06",
+    "data/raw/sample/reformat_data/100004/20110203T120721.json": "e39de4753b7ed3f52db50412bf7f512d462ced45a2004194cded2513a7fb09b3",
+    "data/raw/sample/reformat_data/100005/20110208T120837.json": "107eee5a47087394f3225590c7df29d730962be641c311156955d620b7e63709",
+    "data/raw/sample/reformat_data/100017/20110330T143854.json": "325a2b3a5b77aeb2857b6eb9b95e1c49c5dc6e8e59dd46ceb8fd105afa32b1b5",
+    "data/raw/sample/reformat_data/100058/20110628T161205.json": "3c8a14605e8874942d1767d5ef1f78ecaf04a4e4ae1849569b3cd83d4a52a705",
+    "data/raw/sample/reformat_data/100099/20100203T142442.json": "6a5619457a9b4b5ec34f037ba8e01219c6d573b8e4b339e031aef16b7a79f00b",
+    "data/raw/sample/reformat_data/100100/20100203T153154.json": "3a37f79b18e0351cccf87dea177febc6b65d573cb0ae08af1aa3943fd9ea91ca",
+    "data/raw/sample/reformat_data/100550/20120704T124114.json": "e10b0cd978ec7cc6cf4473d7997f66ef26a018804978279368201a62cf8d4e13",
+    "data/raw/walk_data_meta.csv": "327061f557b3fc164bc2ca777515a25b19e41f05e45966cba69a8a6763bfeb21"
+  }
+}

@@ -1,0 +1,3 @@
+# Handoff limitations
+
+The handoff includes the Milestone 1 metadata baseline and a 30-person technical source-feature pilot. The pilot exports upstream discrete values with source definitions, units and technical QC; it does not independently reconstruct joint angles or validate events/cycles. No biomechanical group-effect estimates, inferred waveforms, clinical phenotypes or injury models have been produced. Primary cohort membership remains provisional. Read `../docs/limitations.md`, `../docs/cohort_definition.md` and `../docs/official_processing_review.md` before reuse. Pilot-specific findings/catalogue are stored separately from the metadata baseline.

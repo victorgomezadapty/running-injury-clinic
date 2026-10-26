@@ -1,0 +1,156 @@
+category,n,denominator,percent,field
+injured,903,1402,64.40798858773181,injury_status
+healthy,351,1402,25.035663338088444,injury_status
+discordant,74,1402,5.2781740370898715,injury_status
+unknown,74,1402,5.2781740370898715,injury_status
+no_injury,425,1402,30.313837375178316,severity
+training_affected,413,1402,29.457917261055634,severity
+training_with_pain,270,1402,19.258202567760343,severity
+two_workouts_missed,220,1402,15.691868758915835,severity
+unknown,74,1402,5.2781740370898715,severity
+knee,325,1402,23.1811697574893,joint
+no injury,198,1402,14.122681883024251,joint
+missing,175,1402,12.482168330955778,joint
+thigh,143,1402,10.199714693295292,joint
+lower leg,141,1402,10.057061340941512,joint
+hip/pelvis,110,1402,7.845934379457917,joint
+foot,108,1402,7.703281027104137,joint
+ankle,82,1402,5.848787446504993,joint
+"no injury,no injury",50,1402,3.566333808844508,joint
+lumbar spine,34,1402,2.425106990014265,joint
+sacroiliac joint,19,1402,1.355206847360913,joint
+other,17,1402,1.2125534950071326,joint
+missing,363,1402,25.891583452211126,diagnosis
+pain,211,1402,15.049928673323823,diagnosis
+other,135,1402,9.629101283880171,diagnosis
+patellofemoral pain syndrome,129,1402,9.20114122681883,diagnosis
+itb syndrome,98,1402,6.990014265335235,diagnosis
+no injury,68,1402,4.85021398002853,diagnosis
+achilles tendonitis,48,1402,3.4236804564907275,diagnosis
+plantar fasciitis,45,1402,3.209700427960057,diagnosis
+calf muscle strain,42,1402,2.9957203994293864,diagnosis
+medial tibial stress syndrome,30,1402,2.1398002853067046,diagnosis
+hamstring muscle strain,28,1402,1.9971469329529243,diagnosis
+shin splints,19,1402,1.355206847360913,diagnosis
+bursitis,19,1402,1.355206847360913,diagnosis
+osteoarthritis,12,1402,0.8559201141226819,diagnosis
+tendonitis,10,1402,0.7132667617689016,diagnosis
+fill in specifics below,9,1402,0.6419400855920114,diagnosis
+low back pain,8,1402,0.5706134094151213,diagnosis
+hip flexor strain,7,1402,0.4992867332382311,diagnosis
+tibia stress fracture,7,1402,0.4992867332382311,diagnosis
+peroneal tendonitis,7,1402,0.4992867332382311,diagnosis
+ligament tear/rupture acl,7,1402,0.4992867332382311,diagnosis
+disc protrusion,6,1402,0.42796005706134094,diagnosis
+si joint pain,5,1402,0.3566333808844508,diagnosis
+muscle spasm,5,1402,0.3566333808844508,diagnosis
+chondromalacia,5,1402,0.3566333808844508,diagnosis
+patellar tedonitis,5,1402,0.3566333808844508,diagnosis
+piriformis syndrome,4,1402,0.28530670470756064,diagnosis
+disc degeneration,4,1402,0.28530670470756064,diagnosis
+pelvic dysfunction general,4,1402,0.28530670470756064,diagnosis
+compartment syndrome,4,1402,0.28530670470756064,diagnosis
+patellar tendonitis,4,1402,0.28530670470756064,diagnosis
+ligament sprain,4,1402,0.28530670470756064,diagnosis
+osteitis pubis,4,1402,0.28530670470756064,diagnosis
+meniscal tear medial,3,1402,0.21398002853067047,diagnosis
+cyst,3,1402,0.21398002853067047,diagnosis
+metarsalgia,3,1402,0.21398002853067047,diagnosis
+metatarsal stress fracture,3,1402,0.21398002853067047,diagnosis
+plica,2,1402,0.14265335235378032,diagnosis
+groin muscle strain,2,1402,0.14265335235378032,diagnosis
+"deformity(ie hammer/claw toes, bunion)",2,1402,0.14265335235378032,diagnosis
+meniscal tear-medial,2,1402,0.14265335235378032,diagnosis
+pes anserine bursitis,2,1402,0.14265335235378032,diagnosis
+first ray tendonitis (turf toe),2,1402,0.14265335235378032,diagnosis
+"deformity (e.g hammer/claw toes, bunion)",2,1402,0.14265335235378032,diagnosis
+pelvic malalignment,2,1402,0.14265335235378032,diagnosis
+nerve impingement,2,1402,0.14265335235378032,diagnosis
+muscle strain,2,1402,0.14265335235378032,diagnosis
+fibula stress fracture,1,1402,0.07132667617689016,diagnosis
+ischial bursitis,1,1402,0.07132667617689016,diagnosis
+patellar fracture,1,1402,0.07132667617689016,diagnosis
+hip joint irritation,1,1402,0.07132667617689016,diagnosis
+dislocation,1,1402,0.07132667617689016,diagnosis
+meniscal tear-lateral,1,1402,0.07132667617689016,diagnosis
+synovitis,1,1402,0.07132667617689016,diagnosis
+labral tear,1,1402,0.07132667617689016,diagnosis
+fibula fracture,1,1402,0.07132667617689016,diagnosis
+tibia fracture,1,1402,0.07132667617689016,diagnosis
+ligament tear/rupture pcl,1,1402,0.07132667617689016,diagnosis
+stress reaction,1,1402,0.07132667617689016,diagnosis
+stress fracture,1,1402,0.07132667617689016,diagnosis
+strain,1,1402,0.07132667617689016,diagnosis
+right,532,1402,37.94579172610556,injury_side
+left,334,1402,23.823109843081312,injury_side
+bilateral,272,1402,19.40085592011412,injury_side
+missing,264,1402,18.830242510699,injury_side
+female,752,1402,53.6376604850214,gender
+male,649,1402,46.29101283880171,gender
+unknown,1,1402,0.07132667617689016,gender
+right,886,1402,63.19543509272468,dominant_leg
+left,309,1402,22.03994293865906,dominant_leg
+missing,206,1402,14.693295292439373,dominant_leg
+ambidextrous,1,1402,0.07132667617689016,dominant_leg
+recreational,920,1402,65.62054208273895,athletic_level
+competitive,358,1402,25.534950071326676,athletic_level
+missing,124,1402,8.844507845934379,athletic_level
+Casual Runner (no times),421,1402,30.028530670470754,RaceDistance
+Half Marathon,234,1402,16.690442225392296,RaceDistance
+missing,182,1402,12.981455064194009,RaceDistance
+Full Marathon,130,1402,9.27246790299572,RaceDistance
+10K,121,1402,8.630527817403708,RaceDistance
+5K,86,1402,6.134094151212554,RaceDistance
+Casual Runner (no races),78,1402,5.563480741797433,RaceDistance
+10k,66,1402,4.70756062767475,RaceDistance
+Other distance,63,1402,4.49358059914408,RaceDistance
+5k,21,1402,1.4978601997146932,RaceDistance
+missing,618,1402,44.07988587731812,joint_secondary
+no injury,496,1402,35.378031383737515,joint_secondary
+knee,59,1402,4.20827389443652,joint_secondary
+hip/pelvis,55,1402,3.9229671897289586,joint_secondary
+foot,42,1402,2.9957203994293864,joint_secondary
+ankle,36,1402,2.5677603423680457,joint_secondary
+lower leg,31,1402,2.2111269614835947,joint_secondary
+thigh,30,1402,2.1398002853067046,joint_secondary
+lumbar spine,22,1402,1.5691868758915835,joint_secondary
+sacroiliac joint,10,1402,0.7132667617689016,joint_secondary
+other,3,1402,0.21398002853067047,joint_secondary
+missing,1116,1402,79.60057061340942,diagnosis_secondary
+pain,96,1402,6.847360912981455,diagnosis_secondary
+other,37,1402,2.6390870185449358,diagnosis_secondary
+plantar fasciitis,18,1402,1.2838801711840229,diagnosis_secondary
+itb syndrome,14,1402,0.9985734664764622,diagnosis_secondary
+hamstring muscle strain,14,1402,0.9985734664764622,diagnosis_secondary
+achilles tendonitis,12,1402,0.8559201141226819,diagnosis_secondary
+patellofemoral pain syndrome,11,1402,0.7845934379457917,diagnosis_secondary
+calf muscle strain,8,1402,0.5706134094151213,diagnosis_secondary
+bursitis,7,1402,0.4992867332382311,diagnosis_secondary
+low back pain,6,1402,0.42796005706134094,diagnosis_secondary
+meniscal tear medial,5,1402,0.3566333808844508,diagnosis_secondary
+ligament sprain,5,1402,0.3566333808844508,diagnosis_secondary
+disc degeneration,4,1402,0.28530670470756064,diagnosis_secondary
+osteoarthritis,4,1402,0.28530670470756064,diagnosis_secondary
+medial tibial stress syndrome,4,1402,0.28530670470756064,diagnosis_secondary
+shin splints,4,1402,0.28530670470756064,diagnosis_secondary
+si joint pain,3,1402,0.21398002853067047,diagnosis_secondary
+strain,3,1402,0.21398002853067047,diagnosis_secondary
+groin muscle strain,3,1402,0.21398002853067047,diagnosis_secondary
+tibia stress fracture,3,1402,0.21398002853067047,diagnosis_secondary
+muscle spasm,3,1402,0.21398002853067047,diagnosis_secondary
+ligament tear/rupture mcl,3,1402,0.21398002853067047,diagnosis_secondary
+peroneal tendonitis,3,1402,0.21398002853067047,diagnosis_secondary
+patellar tendonitis,2,1402,0.14265335235378032,diagnosis_secondary
+disc protrusion,2,1402,0.14265335235378032,diagnosis_secondary
+pelvic dysfunction general,1,1402,0.07132667617689016,diagnosis_secondary
+hip joint irritation,1,1402,0.07132667617689016,diagnosis_secondary
+fill in specifics below,1,1402,0.07132667617689016,diagnosis_secondary
+ligament tear/rupture-acl,1,1402,0.07132667617689016,diagnosis_secondary
+sciatic nerve impingement,1,1402,0.07132667617689016,diagnosis_secondary
+osteitis pubis,1,1402,0.07132667617689016,diagnosis_secondary
+hip flexor strain,1,1402,0.07132667617689016,diagnosis_secondary
+patellar tedonitis,1,1402,0.07132667617689016,diagnosis_secondary
+ligament tear/rupture acl,1,1402,0.07132667617689016,diagnosis_secondary
+meniscal tear-medial,1,1402,0.07132667617689016,diagnosis_secondary
+tendonitis,1,1402,0.07132667617689016,diagnosis_secondary
+compartment syndrome,1,1402,0.07132667617689016,diagnosis_secondary

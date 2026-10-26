@@ -1,0 +1,5 @@
+,age,age,age,age,age,age,height_cm,height_cm,height_cm,height_cm,height_cm,height_cm,mass_kg,mass_kg,mass_kg,mass_kg,mass_kg,mass_kg,median_speed_m_s,median_speed_m_s,median_speed_m_s,median_speed_m_s,median_speed_m_s,median_speed_m_s
+,count,mean,std,min,median,max,count,mean,std,min,median,max,count,mean,std,min,median,max,count,mean,std,min,median,max
+Group,,,,,,,,,,,,,,,,,,,,,,,,
+BMC,23,34.95652173913044,6.160565653408822,22.0,35.0,51.0,23,176.91304347826087,6.684942669763424,162.7,178.6,187.2,23,70.01521739130435,7.96869492540838,57.05,69.0,82.15,23,2.5,0.0,2.5,2.5,2.5
+RIC,23,34.26086956521739,4.40265819812147,28.0,34.0,42.0,23,177.33913043478262,3.1787274655741182,172.2,178.0,182.9,23,78.36521739130436,7.3485687348348945,62.9,78.4,91.7,23,2.4904587578948387,0.033740772350283874,2.42803382861282,2.48128785428821,2.57126578935386

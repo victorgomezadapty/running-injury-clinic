@@ -1,0 +1,14 @@
+{
+  "tables_before": {
+    "data/processed/pilot_features_long.csv": "4b72734753450d8b1cdab144f758816ecaa6cb3495a6a87a7bfb253318181ef8",
+    "data/processed/pilot_features_wide.csv": "d11243deb9b128dbcb7b8ea2c1a89dcc123d34f31c90eda134a29038ce642b8d"
+  },
+  "tables_after": {
+    "data/processed/pilot_features_long.csv": "4b72734753450d8b1cdab144f758816ecaa6cb3495a6a87a7bfb253318181ef8",
+    "data/processed/pilot_features_wide.csv": "d11243deb9b128dbcb7b8ea2c1a89dcc123d34f31c90eda134a29038ce642b8d"
+  },
+  "scientific_tables_identical": true,
+  "cache_hits": 30,
+  "participants": 30,
+  "registry_sha256": "486c7382e4b89fae365991fa03c959f307420e7b4682649845d258aeb685fa7e"
+}

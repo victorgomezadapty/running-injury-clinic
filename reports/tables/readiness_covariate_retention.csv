@@ -1,0 +1,7 @@
+injury_status,covariate_set,available_n,candidate_n,retained_percent
+healthy,all_candidates,353,353,100.0
+healthy,core_covariates,352,353,99.71671388101983
+healthy,expanded_covariates,241,353,68.27195467422096
+injured,all_candidates,904,904,100.0
+injured,core_covariates,899,904,99.44690265486726
+injured,expanded_covariates,724,904,80.08849557522124

@@ -1,0 +1,14 @@
+{
+  "reference_id": "0f9466e2f1e0e7218b1416034e05b9a71e174b3bb35944826c221bbb82f6415b",
+  "reference_directory": "data/interim/event_validation/reference_0f9466e2f1e0e721",
+  "jobs": [
+    {
+      "participant_id": "101111",
+      "filename": "20140529T142305.json",
+      "reference_path": "data\\interim\\event_validation\\reference_0f9466e2f1e0e721\\101111_20140529T142305.mat",
+      "status": "completed"
+    }
+  ],
+  "process_exit_code": 0,
+  "runtime_version": "11.3.0"
+}

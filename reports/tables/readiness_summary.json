@@ -1,0 +1,17 @@
+{
+  "candidate_participants": 1257,
+  "expanded_complete": 965,
+  "core_complete": 1251,
+  "expanded_excluded_percent": 23.229912490055693,
+  "first_running_unresolved": 148,
+  "later_eligible_records_in_review_queue": 3,
+  "candidate_speed_healthy_mean": 2.7386871922578746,
+  "candidate_speed_injured_mean": 2.554258834702012,
+  "pilot_participants": 30,
+  "pilot_already_local": 0,
+  "pilot_compressed_mb_total": 275.778408,
+  "pilot_compressed_mb_not_local": 275.778408,
+  "pilot_uncompressed_mb_total": 584.65371,
+  "motion_processed_this_review": false,
+  "primary_cohort_rules_changed": false
+}

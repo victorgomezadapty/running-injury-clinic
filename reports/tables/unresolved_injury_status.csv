@@ -1,0 +1,165 @@
+participant_id,filename,InjDefn,InjJoint,SpecInjury,InjJoint2,SpecInjury2,injury_status
+100099,20100203T142442.json,No injury,Knee,other,No Injury,,discordant
+100016,20110329T161600.json,No injury,Lower Leg,fibula stress fracture,No Injury,,discordant
+100212,20110914T140313.json,No injury,Hip/Pelvis,pain,Ankle,pain,discordant
+100218,20110921T141851.json,No injury,Ankle,achilles tendonitis,No Injury,,discordant
+100229,20110929T132032.json,No injury,Knee,pain,No Injury,,discordant
+100291,20111012T140221.json,No injury,Foot,plantar fasciitis,Hip/Pelvis,pain,discordant
+100292,20111013T133315.json,No injury,Knee,pain,Lumbar Spine,pain,discordant
+100294,20111019T140906.json,No injury,Knee,pain,No Injury,,discordant
+100295,20111020T133225.json,No injury,Hip/Pelvis,pain,No Injury,,discordant
+100296,20111020T150405.json,No injury,Thigh,ITB syndrome,Hip/Pelvis,pelvic dysfunction general,discordant
+100342,20111102T135604.json,No injury,Knee,pain,No Injury,,discordant
+100338,20111123T135934.json,No injury,Lumbar Spine,pain,Knee,pain,discordant
+100339,20111124T132808.json,No injury,Lower Leg,calf muscle strain,No Injury,,discordant
+100348,20111130T135514.json,No injury,Knee,pain,No Injury,,discordant
+100357,20111208T132352.json,No injury,Knee,pain,No Injury,,discordant
+100133,20110418T111558.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100209,20110428T112229.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100201,20110513T152349.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100203,20110525T154339.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100204,20110603T155329.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100207,20110617T162318.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100220,20110623T000000.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100223,20110907T000000.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100224,20110909T000000.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+100225,20110919T000000.json,No injury,Thigh,ITB syndrome,No Injury,,discordant
+101413,20150402T122006.json,No injury,Knee,Patellofemoral pain syndrome,,,discordant
+100425,20120522T121758.json,,,No injury,,,unknown
+100413,20120524T105624.json,,,No injury,,,unknown
+100558,20120528T103155.json,,,No injury,,,unknown
+100583,20120605T115027.json,,,No injury,,,unknown
+100584,20120605T124837.json,,,No injury,,,unknown
+100608,20120628T105640.json,,,No injury,,,unknown
+100609,20120629T105939.json,,,No injury,,,unknown
+100610,20120703T115439.json,,,No injury,,,unknown
+100550,20120704T124114.json,,,No injury,,,unknown
+100551,20120704T103757.json,,,No injury,,,unknown
+100552,20120706T121758.json,,,No injury,,,unknown
+100553,20120706T123450.json,,,No injury,,,unknown
+100554,20120706T103155.json,,,No injury,,,unknown
+100555,20120709T125516.json,,,No injury,,,unknown
+100556,20120709T124114.json,,,No injury,,,unknown
+100559,20120710T121758.json,,,No injury,,,unknown
+100557,20120710T123450.json,,,No injury,,,unknown
+100563,20120711T125516.json,,,No injury,,,unknown
+100564,20120712T124114.json,,,No injury,,,unknown
+100566,20120712T125516.json,,,No injury,,,unknown
+100569,20120712T125426.json,,,No injury,,,unknown
+100567,20120713T103757.json,,,No injury,,,unknown
+100576,20120713T115124.json,,,No injury,,,unknown
+100577,20120713T105012.json,,,No injury,,,unknown
+100578,20120716T124952.json,,,No injury,,,unknown
+100579,20120716T121617.json,,,No injury,,,unknown
+100611,20120717T113655.json,,,No injury,,,unknown
+100612,20120718T115628.json,,,No injury,,,unknown
+100613,20120718T122757.json,,,No injury,,,unknown
+100614,20120720T121842.json,,,No injury,,,unknown
+100615,20120720T104243.json,,,No injury,,,unknown
+100616,20120720T125030.json,,,No injury,,,unknown
+100617,20120723T105258.json,,,No injury,,,unknown
+100618,20120723T113156.json,,,No injury,,,unknown
+100619,20120724T112231.json,,,No injury,,,unknown
+100620,20120724T101730.json,,,No injury,,,unknown
+100623,20120725T121344.json,,,No injury,,,unknown
+100624,20120726T104016.json,,,No injury,,,unknown
+100632,20120727T113555.json,,,No injury,,,unknown
+100625,20120727T112730.json,,,No injury,,,unknown
+100626,20120727T111113.json,,,No injury,,,unknown
+100628,20120801T104753.json,,,No injury,,,unknown
+100629,20120802T121849.json,,,No injury,,,unknown
+100627,20120802T112422.json,,,No injury,,,unknown
+100633,20120803T102446.json,,,No injury,,,unknown
+100636,20120806T101348.json,,,No injury,,,unknown
+100637,20120809T113547.json,,,No injury,,,unknown
+100638,20120809T102334.json,,,No injury,,,unknown
+100640,20120821T104617.json,,,No injury,,,unknown
+100254,20090623T202557.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100255,20090706T111152.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100243,20090720T194329.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100245,20090831T235549.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100236,20090903T103129.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100241,20090922T184139.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100238,20091001T124813.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100280,20091016T121655.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100267,20091022T151849.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100258,20091026T154218.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100268,20091102T192342.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100284,20100621T111921.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100289,20100629T001758.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100285,20100708T152242.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100286,20100809T194812.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100304,20110920T105857.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100305,20111021T115017.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100312,20110203T124211.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100313,20110209T125643.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100314,20110210T124729.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100320,20110211T111845.json,No injury,Knee,bursitis,No Injury,,discordant
+100321,20110214T102312.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100317,20110216T105144.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100315,20110222T105711.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100316,20110304T112948.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100318,20110309T121934.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100328,20110406T114245.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100319,20110408T122343.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100329,20110411T111815.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100324,20110413T115727.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100325,20110427T112147.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100322,20110506T103544.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100323,20110511T125737.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100326,20110511T101722.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100306,20110516T122250.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100327,20110525T105627.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100308,20110530T102240.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100332,20110530T122235.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100307,20110601T112751.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100330,20110606T113755.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100309,20110613T104747.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100310,20110713T113813.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100311,20111103T103648.json,No injury,Knee,patellofemoral pain syndrome,No Injury,,discordant
+100575,20120119T122851.json,,Knee,PFPS,,,unknown
+100574,20120404T125517.json,,Knee,PFPS,,,unknown
+100573,20120711T101620.json,,Knee,PFPS,,,unknown
+100570,20120717T093512.json,,Knee,PFPS,,,unknown
+100598,20120802T113946.json,,Knee,PFPS,,,unknown
+100677,20121107T101238.json,,Knee,PFPS,,,unknown
+100756,20140604T101137.json,,,Non-specific Injury,,,unknown
+100851,20141003T114930.json,,,"MVA, not running related",,,unknown
+100886,20140424T114753.json,,Ankle,High ankle sprain with tendonosis,,,unknown
+101035,20140417T125955.json,,,No injury,,,unknown
+101036,20140404T124857.json,,,No injury,,,unknown
+101037,20140411T111543.json,,,No injury,,,unknown
+101038,20140425T112621.json,,,No injury,,,unknown
+101039,20140428T103257.json,,,No injury,,,unknown
+101040,20140428T105643.json,,,No injury,,,unknown
+101041,20140425T101716.json,,,No injury,,,unknown
+101042,20140512T114142.json,,,No injury,,,unknown
+101043,20140520T125452.json,,,No injury,,,unknown
+101184,20140606T115631.json,,,No injury,,,unknown
+101044,20140505T112413.json,,,No injury,,,unknown
+101045,20140512T122045.json,,,No injury,,,unknown
+101045,20141110T104729.json,,Other,gastrocnemius strain,,,unknown
+101046,20140508T101457.json,,,No injury,,,unknown
+101176,20140530T112130.json,,,No injury,,,unknown
+101177,20140513T114441.json,,,No injury,,,unknown
+101178,20140602T102343.json,,,No injury,,,unknown
+101179,20140609T123854.json,,,No injury,,,unknown
+101180,20140602T105322.json,,,No injury,,,unknown
+101181,20140606T121315.json,,,No injury,,,unknown
+101182,20140610T115941.json,,,No injury,,,unknown
+101183,20140826T123047.json,,,No injury,,,unknown
+200375,20140501T142737.json,No injury,Foot,First ray tendonitis (turf toe),,,discordant
+200375,20140509T070651.json,No injury,Foot,First ray tendonitis (turf toe),,,discordant
+200304,20140729T151714.json,No injury,Lower Leg,Shin splints,,,discordant
+200304,20140729T152332.json,No injury,Lower Leg,Shin splints,,,discordant
+200304,20140729T153001.json,No injury,Lower Leg,Shin splints,,,discordant
+200304,20140729T153246.json,No injury,Lower Leg,Shin splints,,,discordant
+200316,20140814T153258.json,No injury,Knee,Other,,,discordant
+200316,20140814T154504.json,No injury,Knee,Other,,,discordant
+200316,20140814T155901.json,No injury,Knee,Other,,,discordant
+200317,20140814T163743.json,No injury,Other,N/A,,,discordant
+200317,20140814T164804.json,No injury,Other,N/A,,,discordant
+200317,20140814T165138.json,No injury,Other,N/A,,,discordant
+200378,20140911T155034.json,No injury,Knee,Chondromalacia,,,discordant
+200378,20140911T155732.json,No injury,Knee,Chondromalacia,,,discordant
+201091,20150408T175440.json,No injury,,,Lower Leg,Calf muscle strain,discordant

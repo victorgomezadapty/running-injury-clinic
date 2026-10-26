@@ -1,0 +1,53 @@
+{
+  "reference_id": "0f9466e2f1e0e7218b1416034e05b9a71e174b3bb35944826c221bbb82f6415b",
+  "source_and_adapter_sha256": {
+    "data/raw/official_code/Supplemental_materials/Code/gait_kinematics.m": "10975884e715433813ab7626858b20f1ec0b5a754901c03f02863e7130123943",
+    "data/raw/official_code/Supplemental_materials/Code/gait_steps.m": "69f0134ba07732ba8c80d0a1e7b92f6d1efe057f856d90a8f968f360226a0472",
+    "data/raw/official_code/Supplemental_materials/Code/pca_td.m": "74b9104b6bad7a5828436b5ff601607188cb6bfcce6b03ea8b1eaf169ac648d9",
+    "data/raw/official_code/Supplemental_materials/Code/pca_to.m": "8afe412ad4133acd4b58f6632cf84528ed25f59333d880ab09c14a7f4be00eb1",
+    "data/raw/official_code/Supplemental_materials/Code/event_data_TD.mat": "aaf9b7752f71b652564f3c95be81377cfd80478e9d86b2a3ca2a3feb2ee2643b",
+    "data/raw/official_code/Supplemental_materials/Code/event_data_TO.mat": "1223e6d477dc1fbdc6a598a4bcf724328563f693d06c580d800335a4be5bc4de",
+    "data/raw/official_code/Supplemental_materials/Code/LICENSE.txt": "f4a538bfa483893f5851fefa2ff4b562b254e578d6aafcd78bc1f08f1169c3b0",
+    "src/biomechanics/octave_compat/feature.m": "4e7ef57b957e991c5d0e29b4f9e44e75c6be6660b54118f8b66acbad021cf35b",
+    "src/biomechanics/octave_compat/findpeaks.m": "1746e9b7d11f7581ddb80564113e8cdd5126f32f9e60d6db6124c42b601b618f",
+    "src/biomechanics/octave_compat/nanmean.m": "a5abb5bc7d967cea336277fb154617d440883339d00bd9353138912179007202",
+    "src/biomechanics/octave_compat/nanmedian.m": "48c07e0478e42c44da877d42eee7b9b6d695378c3f55970a53c71433e98dea64",
+    "src/biomechanics/octave_compat/nanmin.m": "a63c0c3112aa67b87380d79291074e6ed38d9f4ffe024bb5d926faa382c4a571",
+    "src/biomechanics/octave_compat/run_reference.m": "af7dd8a1fc4f4d07254c56fac9e4cb3939f54ccbabffc9d4b33b3861d55d30aa",
+    "scripts/run_event_reference.py": "848f56b1322e4a24782eebd984f5390193c894ee67779b87bd26cb3704cb0f84"
+  },
+  "engine": "GNU Octave 11.3.0; not a native MATLAB execution",
+  "gait_mode": "run, fixed from reviewed running-only input branch",
+  "adaptations": [
+    {
+      "kind": "proprietary_gait_classifier_bypass",
+      "removed_exact_source": "import classreg.learning.classif.CompactClassificationDiscriminant\nload('gaitClass.mat','gaitClass')\n\n\nlabel = predict(gaitClass,testSet);\n%label returned as cell\nlabel = label{1};",
+      "replacement": "label = 'run'"
+    },
+    {
+      "kind": "plotting_only",
+      "replacement": "drop_plot = 0"
+    },
+    {
+      "kind": "runtime_compatibility",
+      "files": [
+        "feature.m",
+        "findpeaks.m",
+        "nanmean.m",
+        "nanmedian.m",
+        "nanmin.m",
+        "run_reference.m"
+      ],
+      "description": "Restricted signed-signal findpeaks, missing-value reductions, no-op MATLAB acceleration toggle; all tracked as source assets"
+    }
+  ],
+  "unchanged_equations": [
+    "gait_kinematics.m",
+    "pca_td.m",
+    "pca_to.m",
+    "event_data_TD.mat",
+    "event_data_TO.mat"
+  ],
+  "native_matlab_parity": "not established",
+  "forceplate_ground_truth": false
+}
