@@ -11,6 +11,7 @@ const copy = {
     reproEyebrow:"MÉTODOS ABIERTOS · ATRIBUCIÓN",reproTitle:"Preparado para verificar, citar y ampliar.",reproText:"El archivo original es grande. El repositorio usa adquisición acotada con hashes y un manifiesto fijo. No copia trayectorias brutas de participantes a GitHub. Empieza por la fuente y la guía de reproducción.",repoButton:"Abrir repositorio GitHub",sourceButton:"Dataset original Figshare",licenseTitle:"Dos licencias para dos tipos de material.",licenseText:"El dataset fuente usa CC BY 4.0; sus scripts MATLAB suministrados usan MIT. El código de este proyecto usa MIT. Los valores derivados conservan atribución y una nota explícita de adaptación.",licenseLink:"Detalles de atribución →",reproStack:"RUTA DE REPRODUCCIÓN",matlabGate:"validate_official_events(projectRoot)",pending:"PENDIENTE",immutable:"ENTRADAS BRUTAS · INMUTABLES",reproGateNote:"No ampliar la cohorte hasta ejecutar y revisar el procesador oficial de eventos y ciclos.",footerLine:"Rehabilitación deportiva, ciencia del movimiento y datos reproducibles.",portfolioLink:"Más proyectos en el portafolio de Víctor",footerResearch:"Prototipo de investigación",allReferences:"Bibliografía completa",backTop:"Volver arriba ↑"
   }
 };
+copy.es.pilotReport = "Abrir los descriptivos agregados del piloto ↗";
 
 const languageButton = document.querySelector('.language-toggle');
 let language = localStorage.getItem('running-clinic-language') || 'en';

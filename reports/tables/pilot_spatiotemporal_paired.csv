@@ -1,0 +1,5 @@
+feature,unit,paired_n,median_left_minus_right,median_absolute_side_difference,q1_absolute_side_difference,q3_absolute_side_difference,interpretation
+STRIDE_RATE,strides/min,30,0,0,0,0.190985,descriptive within-person side difference; not a validated asymmetry measure
+STRIDE_LENGTH,m,30,0,0,0,0.00439298,descriptive within-person side difference; not a validated asymmetry measure
+SWING_TIME,s,30,0,0.005,0.0025,0.015,descriptive within-person side difference; not a validated asymmetry measure
+STANCE_TIME,s,30,0,0.0075,0.0025,0.015,descriptive within-person side difference; not a validated asymmetry measure
