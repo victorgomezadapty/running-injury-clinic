@@ -92,6 +92,8 @@ def main() -> None:
         "licenses": [{"name": "CC-BY-4.0"}],
     }
     (OUT / "dataset-metadata.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
+    # Remove a plural-name file created while checking CLI-version differences.
+    (OUT / "datasets-metadata.json").unlink(missing_ok=True)
     attribution = """# Running Injury Clinic Kinematic Technical Pilot
 
 This is a fixed **30-person technical pilot**, selected for engineering checks (15 source-labeled healthy; 15 source-labeled injured). It is not a representative cohort, validated biomechanical analysis, clinical benchmark or model-training recommendation.
