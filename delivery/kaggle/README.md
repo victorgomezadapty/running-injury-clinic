@@ -21,4 +21,4 @@ Adapted from Ferber R, Brett K, Fukuchi R, Hettinga B, Osis S, *Running Injury C
 
 From the project repository, run `python scripts/build_kaggle_release.py`. This deterministically rebuilds the table and metadata from the local processed pilot CSV. To reacquire/rebuild the pilot, follow the repository README and data provenance instructions.
 
-Project: https://running-injury-clinic.vercel.app · Source code: https://github.com/victorgomezadapty/running-injury-clinic
+Interactive bilingual project site: https://running-injury-clinic.vercel.app · Source code and reproducible workflow: https://github.com/victorgomezadapty/running-injury-clinic
