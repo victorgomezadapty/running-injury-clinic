@@ -17,6 +17,8 @@ All 30 pilot JSON files passed structural checks. The 780 feature values are cop
 
 The repository now includes side-specific medians and interquartile ranges for the source summaries, paired descriptive summaries for the four spatiotemporal features, and an exploratory speed plot. It does not test injury-group differences or establish event/cycle validity. Read the [aggregate report and reproduction script](https://github.com/victorgomezadapty/running-injury-clinic/blob/main/reports/milestone_02_1_pilot_descriptives.md).
 
+The repository also includes a metadata-only audit of repeated running records: 209 of 1,402 runners have multiple records, and some have differing recorded status, severity or diagnosis categories. These are record-to-record label differences, not verified clinical transitions or follow-up outcomes. See the [repeated-record audit and reproduction script](https://github.com/victorgomezadapty/running-injury-clinic/blob/main/reports/milestone_04_repeated_record_audit.md). This analysis does not alter the 30-row pilot table.
+
 ## Reuse and attribution
 
 Adapted from Ferber R, Brett K, Fukuchi R, Hettinga B, Osis S, *Running Injury Clinic Kinematic Dataset*, version 1 (2024), https://doi.org/10.25452/figshare.plus.24255795.v1, licensed CC BY 4.0. Changes: fixed pilot selection, source-ID removal, opaque row IDs, selected bilateral fields, column naming and packaging. Please cite the original dataset and descriptor (https://doi.org/10.1038/s41597-024-04011-7), link CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), and follow the source consent context. The dataset descriptor article has a separate publication licence.

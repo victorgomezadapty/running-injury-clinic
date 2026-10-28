@@ -1,0 +1,11 @@
+first_status,latest_status,participants,record_ordering
+discordant,discordant,5,earliest/latest metadata timestamp; not verified follow-up
+discordant,healthy,1,earliest/latest metadata timestamp; not verified follow-up
+healthy,healthy,89,earliest/latest metadata timestamp; not verified follow-up
+healthy,injured,3,earliest/latest metadata timestamp; not verified follow-up
+healthy,unknown,5,earliest/latest metadata timestamp; not verified follow-up
+injured,discordant,1,earliest/latest metadata timestamp; not verified follow-up
+injured,healthy,9,earliest/latest metadata timestamp; not verified follow-up
+injured,injured,94,earliest/latest metadata timestamp; not verified follow-up
+unknown,healthy,1,earliest/latest metadata timestamp; not verified follow-up
+unknown,unknown,1,earliest/latest metadata timestamp; not verified follow-up

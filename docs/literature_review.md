@@ -1,6 +1,6 @@
 # Literature review and discussion
 
-**Search date:** 26 October 2026. **Purpose:** focused narrative review to justify the research question and analysis safeguards; this is not a registered systematic review or an exhaustive evidence synthesis.
+**Search date:** 28 October 2026. **Purpose:** focused narrative review to justify the research question and analysis safeguards; this is not a registered systematic review or an exhaustive evidence synthesis.
 
 ## Search and selection
 
@@ -26,6 +26,10 @@ Orendurff and colleagues experimentally compared four running speeds in recreati
 
 The source dataset descriptor documents a large archive of clinical metadata and 3D running kinematics (Ferber et al., 2024). The present pilot checks JSON structure and summarizes 13 bilateral source-provided discrete variables. These checks do not verify the timing of touchdown/toe-off, the retained normalized cycles, reconstructed joint angles or clinical measurement validity. Reprocessing against the supplied MATLAB implementation can establish computational parity only after the official workflow executes successfully; comparison to manually adjudicated events or an independent reference would still be required for event accuracy.
 
+### A same-dataset cross-sectional classifier has now been published
+
+Xiao, Li and Dong (2026) applied five machine-learning classifiers to 1,744 runners from the Running Injury Clinic dataset. Their random-forest test ROC-AUC was 0.790 (95% CI 0.747–0.831), with sensitivity 0.905 and specificity 0.523. The authors discuss a train/test performance gap, possible overfitting, the need for external validation and injury-subtype-specific work. This recent study changes the novelty case: another generic classifier on the same source would add little. A more useful complementary contribution is to make the data-readiness problem visible—how repeated records, status/diagnosis categories, time-field disagreements and event-processing uncertainty affect cohort definitions—before any later modeling. Our repeated-record audit is descriptive and metadata-only; it does not establish clinical transitions or validate the classifier.
+
 ## Implications for this project
 
 1. Keep the target explicit: **reported current injury status**, not incidence, prognosis or causal risk.
@@ -36,6 +40,7 @@ The source dataset descriptor documents a large archive of clinical metadata and
 6. Separate exploratory group contrasts from confirmatory inference; account for repeated trials within participant and multiple feature testing.
 7. Use diagnosis-specific phenotypes only when the source labels, counts and definition support them. Self-reported current status is not equivalent to a verified clinician diagnosis.
 8. Do not produce clinical cutoffs, screening claims, treatment advice or future-risk claims from these data.
+9. Treat the repeated-record audit as a cohort-definition and temporal-label sensitivity analysis, not as longitudinal follow-up or evidence of injury progression.
 
 ## Limitations of this review
 
@@ -50,3 +55,4 @@ This is a focused narrative review, not a PRISMA-compliant systematic review. Se
 5. Ramskov D, et al. Associations between biomechanical and clinical/anthropometrical factors and running-related injuries among recreational runners: a 52-week prospective cohort study. *Injury Epidemiology*. 2020. [https://doi.org/10.1186/s40621-020-00237-2](https://doi.org/10.1186/s40621-020-00237-2) · [Full text](https://injepijournal.biomedcentral.com/articles/10.1186/s40621-020-00237-2).
 6. Orendurff MS, Kobayashi T, Tulchin-Francis K, et al. A little bit faster: lower extremity joint kinematics and kinetics as recreational runners achieve faster speeds. *Journal of Biomechanics*. 2018;71:167–175. [https://doi.org/10.1016/j.jbiomech.2018.02.010](https://doi.org/10.1016/j.jbiomech.2018.02.010) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/29472010/).
 7. Wolski A, et al. Utilising inertial measurement units and force-velocity profiling to explore sprint injury risk: a feasibility study. *Sensors*. 2025;25(5):1518. [https://doi.org/10.3390/s25051518](https://doi.org/10.3390/s25051518).
+8. Xiao Y, Li J, Dong H. Machine learning-based classification of running-related injury status: a cross-sectional study. *BMC Sports Science, Medicine and Rehabilitation*. 2026. [https://doi.org/10.1186/s13102-026-02026-8](https://doi.org/10.1186/s13102-026-02026-8). Open-access article; cited and paraphrased, with no figures or extended text reused.

@@ -1,0 +1,4 @@
+field,label_definition,repeated_participants,one_category_across_records,multiple_categories_across_records,multiple_category_percent,interpretation
+injury_status,source-derived current-status category,209,188,21,10.0478,record-to-record variability; not proven clinical transition or coding error
+severity,source severity category,209,187,22,10.5263,record-to-record variability; not proven clinical transition or coding error
+diagnosis,normalized primary diagnosis category,209,184,25,11.9617,record-to-record variability; not proven clinical transition or coding error

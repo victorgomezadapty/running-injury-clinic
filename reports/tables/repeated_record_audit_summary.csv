@@ -1,0 +1,12 @@
+measure,n,denominator,percent
+running_metadata_records,1832,1832,100.0000
+unique_running_participants,1402,1402,100.0000
+participants_with_multiple_running_records,209,1402,14.9073
+repeated_participants_with_multiple_injury_status_labels,21,209,10.0478
+repeated_participants_with_multiple_severity_labels,22,209,10.5263
+repeated_participants_with_multiple_primary_diagnosis_labels,25,209,11.9617
+running_records_with_csv_filename_timestamp_disagreement,91,1832,4.9672
+participants_with_any_running_timestamp_disagreement,91,1402,6.4907
+repeated_participants_with_any_running_timestamp_disagreement,2,209,0.9569
+repeated_participants_with_different_earliest_latest_status,20,209,9.5694
+repeated_participants_with_intermediate_status_variation_but_matching_endpoints,1,209,0.4785
