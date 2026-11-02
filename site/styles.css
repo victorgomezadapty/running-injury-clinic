@@ -92,3 +92,12 @@
 .smd-head span:first-child::before{content:"← "}
 .smd-head span:last-child::after{content:" →"}
 .overlap-row.ov-healthy .overlap-track i{background:var(--teal)}
+
+/* design-pass: collapsible new analyses on mobile */
+.collapse-toggle{display:none}
+@media(max-width:760px){
+  .is-collapsible .collapse-toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;min-height:48px;margin:18px 0 4px;padding:12px 16px;border:1px solid currentColor;border-radius:12px;background:transparent;color:inherit;font:600 15px/1.2 inherit;font-family:inherit;cursor:pointer;text-align:left}
+  .is-collapsible .collapse-toggle:focus-visible{outline:3px solid #d3f36b;outline-offset:2px}
+  .collapse-icon{font-size:22px;line-height:1}
+  .is-collapsible:not(.is-open) .collapse-body{display:none}
+}

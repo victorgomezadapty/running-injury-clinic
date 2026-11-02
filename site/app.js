@@ -64,7 +64,7 @@ const fmtNum = (lang, value, dec = 0) => new Intl.NumberFormat(lang === 'es' ? '
 
 const languageButton = document.querySelector('.language-toggle');
 const langParam = new URLSearchParams(location.search).get('lang');
-let language = langParam === 'en' || langParam === 'es' ? langParam : (localStorage.getItem('running-clinic-language') || 'es');
+let language = langParam === 'en' || langParam === 'es' ? langParam : (localStorage.getItem('running-clinic-language') || 'en');
 function setLanguage(next) {
   language = next;
   document.documentElement.lang = next;
@@ -206,3 +206,43 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   playButton?.classList.add('is-paused');
   playButton?.setAttribute('aria-pressed', 'false');
 }
+
+// design-pass: on narrow screens the new-analysis sections start collapsed behind an accessible toggle.
+(() => {
+  const labels = { es: ['Ver el análisis', 'Ocultar el análisis'], en: ['Show the analysis', 'Hide the analysis'] };
+  const lang = () => (document.documentElement.lang || 'es').slice(0, 2) === 'en' ? 'en' : 'es';
+  const toggles = [];
+  document.querySelectorAll('[data-collapse-after]').forEach((marker, index) => {
+    const section = marker.closest('section');
+    if (!section || section.querySelector('.collapse-body')) return;
+    const body = document.createElement('div');
+    body.className = 'collapse-body';
+    body.id = `${section.id || 'analysis'}-body-${index}`;
+    while (marker.nextSibling) body.appendChild(marker.nextSibling);
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'collapse-toggle';
+    button.setAttribute('aria-controls', body.id);
+    button.setAttribute('aria-expanded', 'false');
+    button.innerHTML = '<span class="collapse-label"></span><span class="collapse-icon" aria-hidden="true">+</span>';
+    marker.after(button, body);
+    section.classList.add('is-collapsible');
+    button.addEventListener('click', () => {
+      const open = !section.classList.contains('is-open');
+      section.classList.toggle('is-open', open);
+      button.setAttribute('aria-expanded', String(open));
+      paint();
+      if (open) window.dispatchEvent(new Event('resize'));
+    });
+    toggles.push([section, button]);
+  });
+  function paint() {
+    for (const [section, button] of toggles) {
+      const open = section.classList.contains('is-open');
+      button.querySelector('.collapse-label').textContent = labels[lang()][open ? 1 : 0];
+      button.querySelector('.collapse-icon').textContent = open ? '−' : '+';
+    }
+  }
+  paint();
+  new MutationObserver(paint).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+})();

@@ -86,7 +86,7 @@ Read [verification evidence and limits](reports/validation.md). Notebook cells w
 
 ## Design pass and new descriptive analyses
 
-The homepage now opens in Spanish (with `?lang=en` or the toggle for English) and the English copy is restored correctly after switching back. Text has a 12px floor, numbers are formatted per locale and accessible labels follow the active language.
+The homepage now opens in English (with `?lang=es` or the toggle for Spanish) and the English copy is restored correctly after switching back. Text has a 12px floor, numbers are formatted per locale and accessible labels follow the active language.
 
 Two descriptive sections were added. Both read committed tables in `reports/tables/` through `scripts/export_site_extras.py`, which writes `site/data/extras.json`. Neither runs any inferential test or uses biomechanical outcomes.
 
