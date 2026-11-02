@@ -13,25 +13,80 @@ const copy = {
 };
 copy.es.pilotReport = "Abrir los descriptivos agregados del piloto ↗";
 
+// design-pass: ES copy aligned with the English meaning, and keys for strings that were English-only.
+Object.assign(copy.es, {
+  studyLimit:"El dataset es transversal. No muestra que un patrón de movimiento causara una lesión, no predice lesiones futuras y no diagnostica a ningún corredor.",
+  unitValue:"Un registro seleccionado por persona",
+  comparisonLabel:"COMPARACIÓN CLAVE",comparisonValue:"Estado de lesión, con la velocidad a la vista",
+  cohortEyebrow:"LA SELECCIÓN, NO TODO EL ARCHIVO",cohortTitle:"Una cohorte con reglas que se pueden revisar.",
+  cohortCopy:"Los conteos de candidatos salen de los metadatos y son provisionales. No son la muestra final biomecánicamente utilizable.",
+  candidateLabel:"CANDIDATOS DE CARRERA",candidateText:"primer registro elegible por participante, con estado resuelto y metadatos utilizables",
+  cohortCaption:"Conteos reproducidos desde los metadatos fijados de Figshare v1 y la regla conservadora documentada. Candidato no equivale a inclusión final.",
+  candidateMeans:"COHORTE CANDIDATA · VELOCIDAD MEDIA",
+  chartNote:"Solo control de balance de metadatos · no se ha hecho ninguna prueba biomecánica entre grupos.",
+  heroLead:"Una lectura prudente de la biomecánica de carrera y del estado actual de lesión, pensada para mostrar qué permiten afirmar los datos y dónde se detienen.",
+  motionLab:"ESTUDIO DE MOVIMIENTO / 01",phaseLabel:"FASE DEL CICLO",curveStamp:"FUKUCHI 2017 · 2,5 m/s",
+  illustrationNote:"Cadera, rodilla y tobillo siguen curvas medias publicadas de 28 corredores (Fukuchi et al., 2017, CC BY 4.0). Tronco y brazos son ilustrativos. No es un registro de participantes RIC.",
+  runnerTitle:"Corredor animado con curvas articulares publicadas",
+  runnerDesc:"Cadera, rodilla y tobillo siguen las curvas medias de 28 corredores en cinta a 2,5 m/s (Fukuchi et al., 2017). Tronco, brazos y altura de vuelo son ilustrativos. No es un registro de participantes de Running Injury Clinic.",
+  ptTouch:"CONTACTO",ptStance:"APOYO MEDIO",ptToe:"DESPEGUE",
+  metaAudit:"auditoría de metadatos",pilotSplit:"15 sanos · 15 lesionados",
+  idxQuestion:"01 / PREGUNTA",idxProcess:"04 / PROCESO",
+  sourceFoot:"2.506 archivos JSON · 1.832 registros de carrera",healthyN:"353 sanos",injuredN:"904 lesionados",
+  tag1:"FUENTE · SHA-256",tag2:"POR PERSONA · SENSIBILIDAD",tag3:"ESTRUCTURA · CONTROL TÉCNICO",
+  auditLink:"Leer la auditoría de registros repetidos y etiquetas ↗",cohortLink:"Cohorte prospectiva de 52 semanas",
+  xiaoLabel:"MISMO DATASET · ML TRANSVERSAL",xiaoTitle:"Ya hay un clasificador publicado con esta fuente.",
+  xiaoText:"Xiao et al. (2026) comunicaron un ROC-AUC de 0,790 con random forest, sensibilidad alta y especificidad limitada. Nuestro ángulo complementario audita etiquetas de registros repetidos y el momento de cada cohorte antes de modelar.",
+  gateStack:"PYTHON · CONTROL MATLAB",checksums:"HASHES · MANIFIESTO · CÓDIGO FUENTE",
+  evidenceLead:"La evidencia es mixta, las definiciones varían y la población importa. El argumento más sólido para este proyecto no es un marcador universal de lesión. Es una forma transparente de hacer preguntas más concretas y reproducibles.",
+  limitsTitle:"Qué puede decir este proyecto y qué no.",
+  idxBalance:"02 / NUEVO ANÁLISIS",vBalance:"BALANCE ANTES DE LA BIOMECÁNICA",balEyebrow:"NUEVO ANÁLISIS · BALANCE DE COVARIABLES",
+  balTitle:"La velocidad y la edad separan más a los grupos que el tamaño corporal o la experiencia.",
+  balLead:"Diferencia de medias estandarizada (lesionados menos sanos) en la cohorte candidata de 1.257 personas. En estudios observacionales se suele considerar equilibrado un |SMD| menor de 0,1. Es un control de diseño, no un resultado biomecánico.",
+  smdLeft:"Mayor en sanos",smdRight:"Mayor en lesionados",
+  smdNote:"Líneas discontinuas: ±0,1. Los años corriendo faltan en 286 candidatos (lo informaron 242 sanos y 729 lesionados).",
+  ovEyebrow:"SOLAPAMIENTO DE VELOCIDAD",
+  ovText:"El 82 % de los sanos y el 80 % de los lesionados corren dentro de la ventana común de 2,21 a 3,07 m/s (la intersección de los percentiles 5 a 95 de cada grupo). Comparar a igual velocidad es factible dentro de esa ventana.",
+  idxLabels:"03 / NUEVO ANÁLISIS",vLabels:"UNA PERSONA, VARIOS REGISTROS",labEyebrow:"NUEVO ANÁLISIS · ESTABILIDAD DE ETIQUETAS",
+  labTitle:"Una etiqueta actual es una foto fija.",
+  labLead:"209 de 1.402 corredores (14,9 %) tienen más de un registro de carrera. Al comparar el registro más antiguo con el más reciente de cada persona, 20 de ellos (9,6 %) tienen otro estado. El orden sigue las fechas de los metadatos, no un seguimiento clínico verificado.",
+  mxRows:"Registro más antiguo ↓",mxCols:"Registro más reciente →",
+  labWhy:"El proyecto conserva el primer registro elegible de cada persona. Si se usara el último, 20 corredores repetidos tendrían otra etiqueta. Eso justifica análisis de sensibilidad sobre la regla de etiquetado antes de comparar grupos.",
+  auditLink2:"Auditoría completa de registros repetidos",
+  speedAria:"Velocidad media de la cohorte candidata: sanos 2,74 metros por segundo, lesionados 2,55 metros por segundo"
+});
+copy.en = {};
+document.querySelectorAll('[data-i18n]').forEach((element) => { if (!(element.dataset.i18n in copy.en)) copy.en[element.dataset.i18n] = element.innerHTML; });
+document.querySelectorAll('[data-i18n-aria]').forEach((element) => { copy.en[element.dataset.i18nAria] = element.getAttribute('aria-label'); });
+copy.en.illustrationNote = "Hip, knee and ankle follow published mean curves of 28 runners (Fukuchi et al., 2017, CC BY 4.0). Trunk and arms are illustrative. Not a RIC participant recording.";
+copy.en.phaseLabel = "CYCLE PHASE";
+const fmtNum = (lang, value, dec = 0) => new Intl.NumberFormat(lang === 'es' ? 'es-ES' : 'en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec, useGrouping: true }).format(value);
+
 const languageButton = document.querySelector('.language-toggle');
-let language = localStorage.getItem('running-clinic-language') || 'en';
+const langParam = new URLSearchParams(location.search).get('lang');
+let language = langParam === 'en' || langParam === 'es' ? langParam : (localStorage.getItem('running-clinic-language') || 'es');
 function setLanguage(next) {
   language = next;
   document.documentElement.lang = next;
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const value = copy[next]?.[element.dataset.i18n];
-    if (value) element.innerHTML = value;
+    if (value !== undefined) element.innerHTML = value;
   });
+  document.querySelectorAll('[data-i18n-aria]').forEach((element) => { const value = copy[next]?.[element.dataset.i18nAria]; if (value) element.setAttribute('aria-label', value); });
+  document.querySelectorAll('[data-num]').forEach((element) => { element.textContent = fmtNum(next, Number(element.dataset.num), Number(element.dataset.dec || 0)); });
+  document.title = next === 'es' ? 'Running Injury Clinic · Biomecánica y fenotipado de lesiones' : 'Running Injury Clinic · Biomechanics and injury phenotyping';
+  document.querySelector('.hero-visual')?.setAttribute('aria-label', next === 'es' ? 'Corredor animado con curvas articulares medias publicadas; no es un registro de participantes' : 'Runner animated with published mean joint-angle curves; not a participant recording');
   languageButton.textContent = next === 'en' ? 'ES' : 'EN';
   languageButton.setAttribute('aria-pressed', String(next === 'es'));
-  languageButton.setAttribute('aria-label', next === 'en' ? 'Cambiar idioma a español' : 'Change language to English');
-  document.querySelector('.main-nav')?.setAttribute('aria-label', next === 'en' ? 'Navegación principal' : 'Main navigation');
-  document.querySelector('.metrics-band')?.setAttribute('aria-label', next === 'en' ? 'Resumen del proyecto' : 'Project snapshot');
-  phaseSlider?.setAttribute('aria-label', next === 'en' ? 'Explora el ciclo de marcha ilustrativo' : 'Explore the illustrative gait cycle');
+  languageButton.setAttribute('aria-label', next === 'en' ? 'Switch language to Spanish' : 'Cambiar el idioma a inglés');
+  document.querySelector('.main-nav')?.setAttribute('aria-label', next === 'en' ? 'Main navigation' : 'Navegación principal');
+  document.querySelector('.metrics-band')?.setAttribute('aria-label', next === 'en' ? 'Project snapshot' : 'Resumen del proyecto');
+  phaseSlider?.setAttribute('aria-label', next === 'en' ? 'Scrub the running cycle' : 'Recorrer el ciclo de carrera');
   const paused = playButton?.classList.contains('is-paused');
-  playButton?.setAttribute('aria-label', next === 'en' ? (paused ? 'Reproducir ilustración' : 'Pausar ilustración') : (paused ? 'Play illustration' : 'Pause illustration'));
+  playButton?.setAttribute('aria-label', next === 'en' ? (paused ? 'Play animation' : 'Pause animation') : (paused ? 'Reproducir animación' : 'Pausar animación'));
   localStorage.setItem('running-clinic-language', next);
   updatePhase(Number(phaseSlider.value));
+  renderExtras();
 }
 languageButton?.addEventListener('click', () => setLanguage(language === 'en' ? 'es' : 'en'));
 
@@ -50,12 +105,14 @@ mobileNav?.querySelectorAll('a').forEach((link) => link.addEventListener('click'
 const phaseSlider = document.querySelector('#phase-slider');
 const phaseName = document.querySelector('#phase-name');
 const phaseNumber = document.querySelector('#phase-number');
-const phaseNames = { en: ['Loading response', 'Mid-stance', 'Propulsion', 'Swing'], es: ['Respuesta a la carga', 'Apoyo medio', 'Propulsión', 'Balanceo'] };
+const phaseNames = { en: ['Loading response', 'Mid-stance', 'Propulsion', 'Swing and flight'], es: ['Respuesta a la carga', 'Apoyo medio', 'Propulsión', 'Oscilación y vuelo'] };
+let runnerPhase = null;
+window.addEventListener('runner-phase', (event) => { if (runnerPhase !== event.detail.index) { runnerPhase = event.detail.index; updatePhase(event.detail.pct); } });
 function updatePhase(value) {
   if (!phaseSlider) return;
-  const phase = Math.min(3, Math.floor(value / 25));
+  const phase = runnerPhase ?? (value < 12.3 ? 0 : value < 24.7 ? 1 : value < 37 ? 2 : 3);
   phaseName.textContent = phaseNames[language][phase];
-  phaseNumber.textContent = `0${phase + 1}—04`;
+  phaseNumber.textContent = `0${phase + 1} / 04`;
   phaseSlider.style.setProperty('--progress', `${value}%`);
   phaseSlider.setAttribute('aria-valuetext', phaseNames[language][phase]);
 }
@@ -65,8 +122,70 @@ playButton?.addEventListener('click', () => {
   const paused = playButton.classList.toggle('is-paused');
   document.querySelector('.hero-visual')?.classList.toggle('runner-paused', paused);
   playButton.setAttribute('aria-pressed', String(!paused));
-  playButton.setAttribute('aria-label', paused ? (language === 'en' ? 'Play illustration' : 'Reproducir ilustración') : (language === 'en' ? 'Pause illustration' : 'Pausar ilustración'));
+  playButton.setAttribute('aria-label', paused ? (language === 'en' ? 'Play animation' : 'Reproducir animación') : (language === 'en' ? 'Pause animation' : 'Pausar animación'));
 });
+
+let extras = null;
+const STATUS = { healthy: ['Sano', 'Healthy'], injured: ['Lesionado', 'Injured'], discordant: ['Discordante', 'Discordant'], unknown: ['Desconocido', 'Unknown'] };
+const COVARIATES = { speed_m_s: ['Velocidad en cinta', 'Treadmill speed', 'm/s', 2], age_analysis: ['Edad', 'Age', '', 1], Height_analysis: ['Estatura', 'Height', 'cm', 1], Weight_analysis: ['Peso', 'Weight', 'kg', 1], YrsRunning_analysis: ['Años corriendo', 'Years running', '', 1] };
+function node(tag, cls, text) { const el = document.createElement(tag); if (cls) el.className = cls; if (text !== undefined) el.textContent = text; return el; }
+function renderExtras() {
+  if (!extras) return;
+  const L = (es, en) => (language === 'es' ? es : en);
+  const smd = document.querySelector('#smd-chart');
+  if (smd) {
+    smd.replaceChildren();
+    const max = 0.6;
+    for (const row of extras.covariate_balance) {
+      const meta = COVARIATES[row.variable] || [row.variable, row.variable, '', 1];
+      const line = node('div', 'smd-row' + (Math.abs(row.smd) >= 0.1 ? ' is-imbalanced' : ''));
+      const label = node('div', 'smd-label'); label.append(node('strong', '', L(meta[0], meta[1])), node('span', '', `${L('Sanos', 'Healthy')} ${fmtNum(language, row.healthy_mean, meta[3])} · ${L('Lesionados', 'Injured')} ${fmtNum(language, row.injured_mean, meta[3])}${meta[2] ? ' ' + meta[2] : ''}`));
+      const track = node('div', 'smd-track'); const bar = node('i', 'smd-bar ' + (row.smd < 0 ? 'neg' : 'pos'));
+      const width = Math.min(50, Math.abs(row.smd) / max * 50); bar.style.width = `${width}%`; bar.style.left = row.smd < 0 ? `${50 - width}%` : '50%';
+      track.append(node('span', 'smd-zero'), node('span', 'smd-tick minus'), node('span', 'smd-tick plus'), bar);
+      line.append(label, track, node('b', 'smd-value', `${row.smd > 0 ? '+' : row.smd < 0 ? '−' : ''}${fmtNum(language, Math.abs(row.smd), 2)}`));
+      smd.append(line);
+    }
+  }
+  const overlap = document.querySelector('#overlap-bars');
+  if (overlap) {
+    overlap.replaceChildren();
+    for (const row of extras.speed_support) {
+      const item = node('div', 'overlap-row ov-' + row.status);
+      const head = node('div', 'overlap-head'); head.append(node('span', '', L(STATUS[row.status][0] + 's', STATUS[row.status][1])), node('strong', '', `${fmtNum(language, row.inside_percent, 0)}${language === 'es' ? ' %' : '%'}`));
+      const track = node('div', 'overlap-track'); const fill = node('i'); fill.style.width = `${row.inside_percent}%`; track.append(fill);
+      item.append(head, track, node('small', '', `${fmtNum(language, row.inside)} ${L('de', 'of')} ${fmtNum(language, row.participants)}`));
+      overlap.append(item);
+    }
+  }
+  const matrix = document.querySelector('#status-matrix');
+  if (matrix) {
+    matrix.replaceChildren();
+    const order = ['healthy', 'injured', 'discordant', 'unknown'];
+    const value = (a, b) => (extras.status_endpoints.find((r) => r.first === a && r.latest === b) || { participants: 0 }).participants;
+    const head = node('div', 'mx-row mx-headrow'); head.setAttribute('role', 'row'); head.append(node('span', 'mx-corner'));
+    for (const b of order) { const c = node('span', 'mx-col', L(STATUS[b][0], STATUS[b][1])); c.setAttribute('role', 'columnheader'); head.append(c); }
+    matrix.append(head);
+    for (const a of order) {
+      const row = node('div', 'mx-row'); row.setAttribute('role', 'row');
+      const h = node('span', 'mx-rowhead', L(STATUS[a][0], STATUS[a][1])); h.setAttribute('role', 'rowheader'); row.append(h);
+      for (const b of order) {
+        const v = value(a, b); const cell = node('span', 'mx-cell' + (a === b ? ' same' : v ? ' changed' : ' empty'), v ? fmtNum(language, v) : '0'); cell.setAttribute('role', 'cell');
+        cell.setAttribute('aria-label', `${L(STATUS[a][0], STATUS[a][1])} → ${L(STATUS[b][0], STATUS[b][1])}: ${v}`); row.append(cell);
+      }
+      matrix.append(row);
+    }
+  }
+  const stability = document.querySelector('#stability-list');
+  if (stability) {
+    stability.replaceChildren();
+    const s = extras.repeated_summary;
+    for (const [key, es, en] of [['repeated_participants_with_multiple_injury_status_labels', 'con más de un estado', 'with more than one status'], ['repeated_participants_with_multiple_severity_labels', 'con más de una severidad', 'with more than one severity'], ['repeated_participants_with_multiple_primary_diagnosis_labels', 'con más de un diagnóstico principal', 'with more than one primary diagnosis']]) {
+      const item = node('div', 'stability-item'); item.append(node('strong', '', `${fmtNum(language, s[key].n)} / ${fmtNum(language, s[key].denominator)}`), node('span', '', L(es, en))); stability.append(item);
+    }
+  }
+}
+fetch('data/extras.json').then((r) => { if (!r.ok) throw new Error(`extras HTTP ${r.status}`); return r.json(); }).then((data) => { extras = data; renderExtras(); }).catch((error) => console.warn(error));
 
 setLanguage(language);
 const revealTargets = document.querySelectorAll('.section, .cohort-section, .speed-section, .methods-section, .evidence-section, .limits-section, .reproduce-section, .metrics-band');

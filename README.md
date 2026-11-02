@@ -84,6 +84,17 @@ Notebooks 01–04 are active (metadata and technical pilot). Notebooks 05–09 r
 
 Read [verification evidence and limits](reports/validation.md). Notebook cells were executed in Python with a fresh namespace per notebook; a Jupyter kernel/UI was not verified.
 
+## Design pass and new descriptive analyses
+
+The homepage now opens in Spanish (with `?lang=en` or the toggle for English) and the English copy is restored correctly after switching back. Text has a 12px floor, numbers are formatted per locale and accessible labels follow the active language.
+
+Two descriptive sections were added. Both read committed tables in `reports/tables/` through `scripts/export_site_extras.py`, which writes `site/data/extras.json`. Neither runs any inferential test or uses biomechanical outcomes.
+
+- **Covariate balance.** Standardized mean differences (injured minus healthy) in the 1,257-person candidate cohort: speed −0.51, age +0.32, weight 0.16, years running 0.07, height 0.06. 82.4% of healthy and 80.2% of injured candidates fall inside the shared 2.21 to 3.07 m/s window (overlap of each group's 5th to 95th percentile).
+- **Label stability.** 209 of 1,402 runners have repeated records. Between earliest and latest record, 20 of the 209 carry a different status (for example 9 injured to healthy, 3 healthy to injured). Order follows metadata timestamps only.
+
+The hero runner is driven by the published mean hip, knee and ankle curves of Fukuchi et al. (2017, PeerJ, CC BY 4.0, doi:10.7717/peerj.3298), 28 runners at 2.5 m/s, toe-off at 37% of the cycle (`site/data/gait_reference.json`, the same file used by Sports Rehab Intelligence). Trunk and arms are illustrative. Note: the ankle curve in the distributed files sits about 3.4° from the value reported in the paper's Table 4, so the animation is a visual aid, not a reference value.
+
 ## Sources and licensing
 
 - [Primary dataset, Figshare v1](https://doi.org/10.25452/figshare.plus.24255795.v1), CC BY 4.0. Ferber, Brett, Fukuchi, Hettinga and Osis. Preserve attribution in derivative datasets/figures.

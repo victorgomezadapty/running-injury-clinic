@@ -1,0 +1,161 @@
+{
+ "source": "reports/tables (readiness_covariate_balance, readiness_speed_support, repeated_record_audit_summary, repeated_record_status_endpoint_matrix)",
+ "covariate_balance": [
+  {
+   "variable": "speed_m_s",
+   "healthy_n": 353,
+   "injured_n": 904,
+   "healthy_mean": 2.739,
+   "injured_mean": 2.554,
+   "smd": -0.51
+  },
+  {
+   "variable": "age_analysis",
+   "healthy_n": 353,
+   "injured_n": 903,
+   "healthy_mean": 36.227,
+   "injured_mean": 39.998,
+   "smd": 0.32
+  },
+  {
+   "variable": "Height_analysis",
+   "healthy_n": 352,
+   "injured_n": 901,
+   "healthy_mean": 171.649,
+   "injured_mean": 172.157,
+   "smd": 0.055
+  },
+  {
+   "variable": "Weight_analysis",
+   "healthy_n": 352,
+   "injured_n": 901,
+   "healthy_mean": 69.371,
+   "injured_mean": 71.453,
+   "smd": 0.157
+  },
+  {
+   "variable": "YrsRunning_analysis",
+   "healthy_n": 242,
+   "injured_n": 729,
+   "healthy_mean": 10.275,
+   "injured_mean": 10.929,
+   "smd": 0.069
+  }
+ ],
+ "speed_support": [
+  {
+   "status": "healthy",
+   "participants": 353,
+   "inside": 291,
+   "inside_percent": 82.4,
+   "lower_m_s": 2.21,
+   "upper_m_s": 3.07
+  },
+  {
+   "status": "injured",
+   "participants": 904,
+   "inside": 725,
+   "inside_percent": 80.2,
+   "lower_m_s": 2.21,
+   "upper_m_s": 3.07
+  }
+ ],
+ "repeated_summary": {
+  "running_metadata_records": {
+   "n": 1832,
+   "denominator": 1832
+  },
+  "unique_running_participants": {
+   "n": 1402,
+   "denominator": 1402
+  },
+  "participants_with_multiple_running_records": {
+   "n": 209,
+   "denominator": 1402
+  },
+  "repeated_participants_with_multiple_injury_status_labels": {
+   "n": 21,
+   "denominator": 209
+  },
+  "repeated_participants_with_multiple_severity_labels": {
+   "n": 22,
+   "denominator": 209
+  },
+  "repeated_participants_with_multiple_primary_diagnosis_labels": {
+   "n": 25,
+   "denominator": 209
+  },
+  "running_records_with_csv_filename_timestamp_disagreement": {
+   "n": 91,
+   "denominator": 1832
+  },
+  "participants_with_any_running_timestamp_disagreement": {
+   "n": 91,
+   "denominator": 1402
+  },
+  "repeated_participants_with_any_running_timestamp_disagreement": {
+   "n": 2,
+   "denominator": 209
+  },
+  "repeated_participants_with_different_earliest_latest_status": {
+   "n": 20,
+   "denominator": 209
+  },
+  "repeated_participants_with_intermediate_status_variation_but_matching_endpoints": {
+   "n": 1,
+   "denominator": 209
+  }
+ },
+ "status_endpoints": [
+  {
+   "first": "discordant",
+   "latest": "discordant",
+   "participants": 5
+  },
+  {
+   "first": "discordant",
+   "latest": "healthy",
+   "participants": 1
+  },
+  {
+   "first": "healthy",
+   "latest": "healthy",
+   "participants": 89
+  },
+  {
+   "first": "healthy",
+   "latest": "injured",
+   "participants": 3
+  },
+  {
+   "first": "healthy",
+   "latest": "unknown",
+   "participants": 5
+  },
+  {
+   "first": "injured",
+   "latest": "discordant",
+   "participants": 1
+  },
+  {
+   "first": "injured",
+   "latest": "healthy",
+   "participants": 9
+  },
+  {
+   "first": "injured",
+   "latest": "injured",
+   "participants": 94
+  },
+  {
+   "first": "unknown",
+   "latest": "healthy",
+   "participants": 1
+  },
+  {
+   "first": "unknown",
+   "latest": "unknown",
+   "participants": 1
+  }
+ ]
+}
