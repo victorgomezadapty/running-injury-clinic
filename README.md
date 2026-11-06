@@ -104,7 +104,7 @@ The hero runner is driven by the published mean hip, knee and ankle curves of Fu
 
 ## Public project and release
 
-- Interactive project site: [running-injury-clinic.vercel.app](https://running-injury-clinic.vercel.app) (static `site/` directory; animated SVG is conceptual and not participant data).
+- Interactive project site: [Running Injury Clinic on Sports Rehab Intelligence](https://sports-rehab-intelligence.vercel.app/studies/running-injury-clinic/). The app now lives in the atlas. The static source remains `site/`; the animated SVG is conceptual and not participant data.
 - Source repository: [github.com/victorgomezadapty/running-injury-clinic](https://github.com/victorgomezadapty/running-injury-clinic).
 - Small Kaggle release: [Running Injury Clinic Kinematic Technical Pilot](https://www.kaggle.com/datasets/vctorandrsgmezlpez/running-injury-clinic-kinematic-pilot). It contains only the selected, identifier-stripped 30-person pilot table and its dictionary; exact public source measurements may remain linkable.
 - Portfolio project index: [Victor Gómez portfolio](https://victor-gomez-portfolio.vercel.app) and GitHub profile README.
@@ -113,7 +113,7 @@ The site includes the evidence discussion, all DOI references, limits, attributi
 
 ## Hosting and release
 
-Vercel serves `site/` as a static root. When connected to GitHub, commits to the production branch deploy automatically and pull requests receive previews. Kaggle packaging is rebuilt with `python scripts/build_kaggle_release.py`; source archives and credential files are excluded from Git. Do not commit Kaggle API credentials or `.vercel/` state.
+The public app now lives in the Sports Rehab Intelligence atlas (link above). `site/` remains the static source for that route. Kaggle packaging is rebuilt with `python scripts/build_kaggle_release.py`; source archives and credential files are excluded from Git. Do not commit Kaggle API credentials or `.vercel/` state.
 
 ## Literature discussion
 
